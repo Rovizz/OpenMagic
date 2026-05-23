@@ -1,0 +1,27 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "OpenMagic Lesson",
+  "type": "object",
+  "required": ["id", "titolo", "categoria", "livello", "youtube_id", "descrizione", "prerequisiti"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]{0,63}$" },
+    "titolo": { "type": "string", "minLength": 2 },
+    "categoria": { "enum": ["tecnica", "trucco", "cardistry"] },
+    "livello": { "type": "integer", "minimum": 1, "maximum": 3 },
+    "tags": { "type": "array", "items": { "type": "string" } },
+    "youtube_id": { "type": "string", "pattern": "^[a-zA-Z0-9_-]{11}$" },
+    "canale": { "type": "string" },
+    "descrizione": { "type": "string" },
+    "prerequisiti": { "type": "array", "items": { "type": "string" } },
+    "wiki": {
+      "type": "object",
+      "properties": {
+        "cos_e": { "type": "string" },
+        "perche": { "type": "string" },
+        "come_praticare": { "type": "array", "items": { "type": "string" } },
+        "errori_comuni": { "type": "array", "items": { "type": "string" } },
+        "tempo_stima": { "type": "string" }
+      }
+    }
+  }
+}

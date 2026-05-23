@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="it" class="dark">
+<head>
+  <!-- Enterprise Security Headers -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdn.tailwindcss.com https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https://img.youtube.com https://i.ytimg.com; frame-src 'self' https://www.youtube-nocookie.com https://www.youtube.com;">
+  <meta http-equiv="X-Content-Type-Options" content="nosniff">
+  <meta http-equiv="X-Frame-Options" content="DENY">
+  <meta name="referrer" content="no-referrer">
+  <!-- Core Anti-Tampering Engine -->
+  <script src="js/security-core.js"></script>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="OpenMagic — La piattaforma iper-moderna per imparare la cartomagia." />
+  <meta name="theme-color" content="#050505" />
+  <title>OpenMagic — Next-Gen Card Magic</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- tsParticles -->
+  <script src="https://cdn.jsdelivr.net/npm/tsparticles@2/tsparticles.bundle.min.js"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              400: '#60a5fa',
+              500: '#3b82f6',
+              600: '#2563eb',
+            },
+            accent: {
+              400: '#a78bfa',
+              500: '#8b5cf6',
+            }
+          },
+          fontFamily: {
+            sans: ['Outfit', 'sans-serif'],
+            display: ['"Space Grotesk"', 'sans-serif'],
+          }
+        }
+      }
+    };
+  </script>
+</head>
+<body class="bg-[#050505] text-slate-100 min-h-screen antialiased font-sans">
+  
+  <header id="site-header" class="border-b border-white/5 bg-[#050505]/70 backdrop-blur-xl sticky top-0 z-50"></header>
+
+  <section class="hero-bg relative overflow-hidden min-h-[85vh] flex items-center border-b border-white/5" id="hero-section">
+    <!-- Particles Container -->
+    <div id="tsparticles" class="absolute inset-0 z-0 opacity-60"></div>
+    <!-- Clean modern background -->
+    <div class="relative z-10 max-w-7xl mx-auto px-6 py-20 w-full reveal flex flex-col lg:flex-row items-center gap-12">
+      
+      <!-- Text Content -->
+      <div class="lg:w-1/2">
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/5 border border-white/10 mb-6 backdrop-blur-md">
+          <span class="w-2 h-2 rounded-full bg-blue-500 animate-pulse"></span>
+          <span class="text-xs font-semibold uppercase tracking-wider text-slate-300">Open source & Free forever</span>
+        </div>
+        <h1 class="text-5xl md:text-7xl lg:text-8xl font-bold max-w-4xl leading-[1.1] font-display tracking-tight mb-6">
+          Master card magic <br class="hidden md:block"/>
+          <span class="text-accent font-extrabold">like a pro.</span>
+        </h1>
+        <p class="text-slate-400 text-lg md:text-xl max-w-2xl leading-relaxed mb-10 font-light">
+          Esplora centinaia di tecniche, routine e fioriture. Curriculum strutturati, tutorial selezionati e interfacce ultra-moderne per accelerare il tuo apprendimento.
+        </p>
+        
+        <p id="progress-text" class="text-sm font-medium text-slate-500 mb-6"></p>
+        
+        <div class="flex flex-col sm:flex-row flex-wrap gap-4">
+          <a href="percorsi.html" class="btn-primary px-8 py-4 rounded-xl font-bold text-sm tracking-wide text-center">
+            Inizia un Percorso
+          </a>
+          <a href="browse.html" class="px-8 py-4 rounded-xl bg-white/5 border border-white/10 hover:bg-white/10 hover:border-white/20 font-semibold text-sm tracking-wide text-center transition-all backdrop-blur-md">
+            Esplora Database
+          </a>
+        </div>
+      </div>
+
+      <!-- 3D Interactive Card (Spline Alternative) -->
+      <div class="lg:w-1/2 flex justify-center perspective-container">
+        <div class="magic-card-3d">
+          <div class="card-face card-front">
+            <div class="card-corner top-left">♠</div>
+            <div class="card-center">
+              <svg class="w-24 h-24 text-blue-500 drop-shadow-[0_0_15px_rgba(59,130,246,0.8)]" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C8 7 4 11 4 15a8 8 0 0 0 16 0c0-4-4-8-8-13z"/></svg>
+            </div>
+            <div class="card-corner bottom-right">♠</div>
+          </div>
+          <div class="card-face card-back">
+            <div class="back-pattern"></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <main class="max-w-7xl mx-auto px-6 py-24 relative">
+    
+    <div class="reveal mb-16 text-center max-w-2xl mx-auto">
+      <h2 class="text-3xl font-display font-bold mb-4">Statistiche Globali</h2>
+      <p class="text-slate-400">Tutto il materiale di cui hai bisogno per passare da principiante a maestro.</p>
+    </div>
+
+    <div id="stats-grid" class="grid grid-cols-2 md:grid-cols-4 gap-6 mb-24 reveal"></div>
+
+    <div class="flex flex-col md:flex-row items-center justify-between gap-6 mb-12 reveal">
+      <div>
+        <h2 class="text-3xl font-display font-bold">L'Enciclopedia</h2>
+        <p class="text-slate-400 mt-2">Cerca tra +180 voci. Double Lift, Faro Shuffle, Zarrow...</p>
+      </div>
+      <div class="w-full md:w-auto relative group">
+        <div class="absolute -inset-1 bg-gradient-to-r from-blue-500 to-purple-600 rounded-xl blur opacity-25 group-hover:opacity-50 transition duration-500"></div>
+        <input id="search" type="search" maxlength="80" placeholder="Cerca una tecnica o trucco..."
+          class="relative w-full md:w-80 px-5 py-3 rounded-xl bg-[#0a0a0c] border border-white/10 text-slate-200 placeholder-slate-500 focus:outline-none focus:border-blue-500/50 transition-colors shadow-xl" />
+      </div>
+    </div>
+    
+    <div id="results-grid" class="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 reveal">
+      <div class="col-span-full py-12 flex justify-center">
+        <div class="w-8 h-8 border-4 border-blue-500/30 border-t-blue-500 rounded-full animate-spin"></div>
+      </div>
+    </div>
+    
+    <div class="mt-12 text-center reveal">
+       <a href="browse.html" class="inline-flex items-center gap-2 text-blue-400 hover:text-blue-300 font-semibold hover:gap-3 transition-all">
+         Vedi tutti gli elementi <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
+       </a>
+    </div>
+  </main>
+
+  <footer id="site-footer" class="border-t border-white/5 mt-12 bg-black/40 backdrop-blur"></footer>
+  
+  <script type="module" src="js/home.js"></script>
+  <!-- Main interactions script -->
+  <script type="module" src="js/interactions.js"></script>
+</body>
+</html>

@@ -1,0 +1,630 @@
+[
+  {
+    "id": "charlier-cut",
+    "titolo": "Charlier Cut",
+    "categoria": "cardistry",
+    "livello": 1,
+    "tags": [
+      "taglio",
+      "una mano"
+    ],
+    "youtube_id": "BNC_DD9XccI",
+    "canale": "School of Cardistry",
+    "descrizione": "Il taglio a una mano più iconico. Prima mossa da cardist.",
+    "prerequisiti": [
+      "straddle-grip"
+    ]
+  },
+  {
+    "id": "scissor-cut",
+    "titolo": "Scissor Cut",
+    "categoria": "cardistry",
+    "livello": 1,
+    "tags": [
+      "taglio",
+      "due mani"
+    ],
+    "youtube_id": "z9YkyM0hG3M",
+    "canale": "School of Cardistry",
+    "descrizione": "Taglio a forbice con due mani. Transizione fluida tra le prese.",
+    "prerequisiti": [
+      "charlier-cut"
+    ]
+  },
+  {
+    "id": "revolution-cut",
+    "titolo": "Revolution Cut",
+    "categoria": "cardistry",
+    "livello": 1,
+    "tags": [
+      "taglio",
+      "una mano"
+    ],
+    "youtube_id": "ozcjv4ysN6E",
+    "canale": "52Kards",
+    "descrizione": "Taglio rotante a una mano. Più spettacolare del Charlier.",
+    "prerequisiti": [
+      "charlier-cut"
+    ]
+  },
+  {
+    "id": "spring",
+    "titolo": "Spring (Cascata)",
+    "categoria": "cardistry",
+    "livello": 1,
+    "tags": [
+      "cascata",
+      "flourish"
+    ],
+    "youtube_id": "U-GvSSBLVhg",
+    "canale": "52Kards",
+    "descrizione": "Cascata da mano a mano in tensione. Il flourish più riconoscibile.",
+    "prerequisiti": [
+      "mechanics-grip"
+    ]
+  },
+  {
+    "id": "sybil-cut",
+    "titolo": "Sybil Cut",
+    "categoria": "cardistry",
+    "livello": 2,
+    "tags": [
+      "multi-packet",
+      "classico"
+    ],
+    "youtube_id": "8T9yeV9oT2o",
+    "canale": "52Kards",
+    "descrizione": "Apertura a 5 mazzetti di Chris Kenner. Falso taglio spettacolare.",
+    "prerequisiti": [
+      "revolution-cut",
+      "swivel-cut"
+    ]
+  },
+  {
+    "id": "werm",
+    "titolo": "Werm",
+    "categoria": "cardistry",
+    "livello": 2,
+    "tags": [
+      "flourish",
+      "dan buck"
+    ],
+    "youtube_id": "I7dOd50Hf3Y",
+    "canale": "Fontaine Cards",
+    "descrizione": "Flourish iconico di Dan & Dave Buck. Rotazioni e display multi-packet.",
+    "prerequisiti": [
+      "sybil-cut"
+    ]
+  },
+  {
+    "id": "pirouette",
+    "titolo": "Pirouette",
+    "categoria": "cardistry",
+    "livello": 2,
+    "tags": [
+      "spin",
+      "una carta"
+    ],
+    "youtube_id": "mh8H4qSxWi0",
+    "canale": "52Kards",
+    "descrizione": "Far girare una carta sul polpastrello. Effetto isolato molto visivo.",
+    "prerequisiti": [
+      "mechanics-grip"
+    ]
+  },
+  {
+    "id": "faro-cascade",
+    "titolo": "Faro Cascade",
+    "categoria": "cardistry",
+    "livello": 2,
+    "tags": [
+      "cascata",
+      "faro"
+    ],
+    "youtube_id": "RXhNA0xLRgY",
+    "canale": "Lotus In Hand",
+    "descrizione": "Cascata con intreccio faro. Richiede controllo del faro shuffle.",
+    "prerequisiti": [
+      "faro-shuffle",
+      "spring"
+    ]
+  },
+  {
+    "id": "anaconda",
+    "titolo": "Anaconda",
+    "categoria": "cardistry",
+    "livello": 3,
+    "tags": [
+      "spring",
+      "verticale"
+    ],
+    "youtube_id": "XkFsVIWkgEY",
+    "canale": "Fontaine Cards",
+    "descrizione": "Spring estremo verticale. Evoluzione avanzata della cascata classica.",
+    "prerequisiti": [
+      "spring",
+      "dribble"
+    ]
+  },
+  {
+    "id": "waterwheel",
+    "titolo": "Waterwheel",
+    "categoria": "cardistry",
+    "livello": 3,
+    "tags": [
+      "display",
+      "rotazione"
+    ],
+    "youtube_id": "t37LtSyLJo8",
+    "canale": "School of Cardistry",
+    "descrizione": "Ruota d'acqua con le carte: display circolare avanzato.",
+    "prerequisiti": [
+      "spring",
+      "sybil-cut"
+    ]
+  },
+  {
+    "id": "phaced",
+    "titolo": "Phaced / Squeeze",
+    "categoria": "cardistry",
+    "livello": 3,
+    "tags": [
+      "taglio",
+      "iper-complesso"
+    ],
+    "youtube_id": "qn4CtuSWQ74",
+    "canale": "Daren Yeow",
+    "descrizione": "Tagli iper-complessi a due mani. Richiede padronanza di Sybil e packet work.",
+    "prerequisiti": [
+      "sybil-cut",
+      "werm"
+    ]
+  },
+  {
+    "id": "werm-variations",
+    "titolo": "Werm Variations",
+    "categoria": "cardistry",
+    "livello": 2,
+    "tags": [
+      "flourish",
+      "multi-packet"
+    ],
+    "descrizione": "Varianti creative e complesse del classico Werm di Dan e Dave.",
+    "prerequisiti": [
+      "werm"
+    ],
+    "youtube_id": "xUdbFO2i-zQ",
+    "canale": "K"
+  },
+  {
+    "id": "genesis-cut",
+    "titolo": "Genesis Cut",
+    "categoria": "cardistry",
+    "livello": 2,
+    "tags": [
+      "taglio",
+      "multi-packet"
+    ],
+    "descrizione": "Evoluzione del sybil con un ritmo differente e aperture molto squadrate.",
+    "prerequisiti": [
+      "sybil-cut"
+    ],
+    "youtube_id": "6txh2ExMzY8",
+    "canale": "W.A.V. Cards"
+  },
+  {
+    "id": "squall-cut",
+    "titolo": "Squall Cut",
+    "categoria": "cardistry",
+    "livello": 2,
+    "tags": [
+      "taglio",
+      "dinamico"
+    ],
+    "descrizione": "Un taglio a due mani molto dinamico, pieno di flip e rotazioni.",
+    "prerequisiti": [
+      "revolution-cut"
+    ],
+    "youtube_id": "s6F3Em7McOs",
+    "canale": "lotusinhand"
+  },
+  {
+    "id": "mantis",
+    "titolo": "Mantis",
+    "categoria": "cardistry",
+    "livello": 3,
+    "tags": [
+      "taglio",
+      "avanzato"
+    ],
+    "descrizione": "Un florish intricato inventato dai cardist di Singapore. Esteticamente incredibile.",
+    "prerequisiti": [
+      "straddle-grip"
+    ],
+    "youtube_id": "_DrHVOe3wK4",
+    "canale": "Sean Devine"
+  },
+  {
+    "id": "squoze",
+    "titolo": "Squoze",
+    "categoria": "cardistry",
+    "livello": 3,
+    "tags": [
+      "taglio",
+      "multi-packet"
+    ],
+    "descrizione": "Un taglio a due mani di Dimitri Arleri molto compresso ma esplosivo.",
+    "prerequisiti": [
+      "phaced"
+    ],
+    "youtube_id": "yUcFV99CcAE",
+    "canale": "Daniel Huckins"
+  },
+  {
+    "id": "kryptonite",
+    "titolo": "Kryptonite",
+    "categoria": "cardistry",
+    "livello": 2,
+    "tags": [
+      "taglio",
+      "dinamico"
+    ],
+    "descrizione": "Un buon intermedio a due mani che introduce display asimmetrici.",
+    "prerequisiti": [
+      "sybil-cut"
+    ],
+    "youtube_id": "hn-GCqp2e4c",
+    "canale": "CardisTree"
+  },
+  {
+    "id": "hot-shot-cut",
+    "titolo": "Hot Shot Cut",
+    "categoria": "cardistry",
+    "livello": 2,
+    "tags": [
+      "produzione",
+      "volo"
+    ],
+    "descrizione": "Produzione inventata da Daryl in cui una carta schizza fuori dal mazzo ruotando come un boomerang.",
+    "prerequisiti": [
+      "swing-cut"
+    ],
+    "youtube_id": "xhMPlw3lzR8",
+    "canale": "Dusky Leaf Magic"
+  },
+  {
+    "id": "flicker",
+    "titolo": "Flicker",
+    "categoria": "cardistry",
+    "livello": 1,
+    "tags": [
+      "twirl",
+      "una mano"
+    ],
+    "descrizione": "Far volteggiare una singola carta sul pollice, base per molti shot (Huron Low).",
+    "prerequisiti": [
+      "mechanics-grip"
+    ],
+    "youtube_id": "RWNz3ii4tQA",
+    "canale": "Josh Norbido"
+  },
+  {
+    "id": "flicker-shot",
+    "titolo": "Flicker Shot",
+    "categoria": "cardistry",
+    "livello": 2,
+    "tags": [
+      "shot",
+      "volo"
+    ],
+    "descrizione": "Volteggio seguito dal tiro istantaneo della carta verso l'altra mano.",
+    "prerequisiti": [
+      "flicker"
+    ],
+    "youtube_id": "t-hcHmTNy7c",
+    "canale": "thevirts"
+  },
+  {
+    "id": "bullet",
+    "titolo": "Bullet",
+    "categoria": "cardistry",
+    "livello": 2,
+    "tags": [
+      "twirl",
+      "una mano"
+    ],
+    "descrizione": "Un elegante twirl di una carta sul dorso della mano, ideato da Andrei Jikh.",
+    "prerequisiti": [
+      "mechanics-grip"
+    ],
+    "youtube_id": "Tm6gbh9E32A",
+    "canale": "Thomas Baker"
+  },
+  {
+    "id": "carnahan-fan",
+    "titolo": "Carnahan Fan",
+    "categoria": "cardistry",
+    "livello": 2,
+    "tags": [
+      "ventaglio",
+      "una mano"
+    ],
+    "descrizione": "Ventaglio stupendo eseguito con una mano dopo una specifica rotazione.",
+    "prerequisiti": [
+      "thumb-fan"
+    ],
+    "youtube_id": "Jhi_YgKXJR8",
+    "canale": "School Of Cardistry"
+  },
+  {
+    "id": "smear-fan",
+    "titolo": "Smear Fan",
+    "categoria": "cardistry",
+    "livello": 1,
+    "tags": [
+      "ventaglio",
+      "una mano"
+    ],
+    "descrizione": "Il ventaglio a una mano più comune e versatile, si strofina il pollice contro il mazzo.",
+    "prerequisiti": [
+      "thumb-fan"
+    ],
+    "youtube_id": "1E7t2BUM2rw",
+    "canale": "lotusinhand"
+  },
+  {
+    "id": "rifle-fan",
+    "titolo": "Riffle Fan",
+    "categoria": "cardistry",
+    "livello": 3,
+    "tags": [
+      "ventaglio",
+      "circolare"
+    ],
+    "descrizione": "Ventaglio mozzafiato a 360 gradi, tenuto su una base piccolissima (Dimitri Arleri).",
+    "prerequisiti": [
+      "mechanics-grip"
+    ],
+    "youtube_id": "EcIJI_jSBuE",
+    "canale": "Jason Maher"
+  },
+  {
+    "id": "curly-q",
+    "titolo": "Curly Q",
+    "categoria": "cardistry",
+    "livello": 3,
+    "tags": [
+      "cascata",
+      "ventaglio"
+    ],
+    "descrizione": "Creare un nastro tridimensionale arricciato in aria con tutto il mazzo.",
+    "prerequisiti": [
+      "spring"
+    ],
+    "youtube_id": "cUYNRqg3zBk",
+    "canale": "--"
+  },
+  {
+    "id": "pandora",
+    "titolo": "Pandora",
+    "categoria": "cardistry",
+    "livello": 3,
+    "tags": [
+      "taglio",
+      "dinamico"
+    ],
+    "descrizione": "Il leggendario taglio esplosivo di Dan & Dave, capolavoro di coordinazione.",
+    "prerequisiti": [
+      "sybil-cut"
+    ],
+    "youtube_id": "o6HNsuFaETA",
+    "canale": "anyone"
+  },
+  {
+    "id": "madonna",
+    "titolo": "Madonna",
+    "categoria": "cardistry",
+    "livello": 3,
+    "tags": [
+      "taglio",
+      "dinamico"
+    ],
+    "descrizione": "Taglio avanzato, pieno di fioriture e packet in rotazione.",
+    "prerequisiti": [
+      "sybil-cut"
+    ],
+    "youtube_id": "G_tX74gHZoY",
+    "canale": "Noway Plays Stuff"
+  },
+  {
+    "id": "jackson-five",
+    "titolo": "Jackson Five",
+    "categoria": "cardistry",
+    "livello": 3,
+    "tags": [
+      "taglio",
+      "display"
+    ],
+    "descrizione": "Display a cinque pacchetti famosissimo ideato da Dan e Dave.",
+    "prerequisiti": [
+      "sybil-cut"
+    ],
+    "youtube_id": "jD_I8p-zl1s",
+    "canale": "David Black"
+  },
+  {
+    "id": "legolove",
+    "titolo": "Legolove",
+    "categoria": "cardistry",
+    "livello": 2,
+    "tags": [
+      "twirl",
+      "singola"
+    ],
+    "descrizione": "Un twirl pazzesco attorno al dito, con una singola carta.",
+    "prerequisiti": [
+      "mechanics-grip"
+    ],
+    "youtube_id": "HT73INYo7QI",
+    "canale": "Card Perfect Magician"
+  },
+  {
+    "id": "retractor",
+    "titolo": "Retractor",
+    "categoria": "cardistry",
+    "livello": 2,
+    "tags": [
+      "singola",
+      "dinamico"
+    ],
+    "descrizione": "Una manovra di isolamento su una singola carta che sembra sfidare la fisica.",
+    "prerequisiti": [
+      "legolove"
+    ],
+    "youtube_id": "_NlsrxgtdzM",
+    "canale": "Tekmagic"
+  },
+  {
+    "id": "isoceles",
+    "titolo": "Isoceles",
+    "categoria": "cardistry",
+    "livello": 3,
+    "tags": [
+      "display",
+      "geometrico"
+    ],
+    "descrizione": "Display geometrico a triangoli usando i mazzetti del mazzo.",
+    "prerequisiti": [
+      "straddle-grip"
+    ],
+    "youtube_id": "UvtjLyrdUTs",
+    "canale": "dealersgrip"
+  },
+  {
+    "id": "bullet-spin",
+    "titolo": "Bullet Spin",
+    "categoria": "cardistry",
+    "livello": 2,
+    "tags": [
+      "twirl",
+      "una mano"
+    ],
+    "prerequisiti": [
+      "bullet"
+    ],
+    "descrizione": "Rotazione estrema di una carta singola.",
+    "youtube_id": "kppssPG7etM",
+    "canale": "CardMechanic"
+  },
+  {
+    "id": "friffle",
+    "titolo": "Friffle",
+    "categoria": "cardistry",
+    "livello": 2,
+    "tags": [
+      "cascata",
+      "due mani"
+    ],
+    "prerequisiti": [
+      "spring"
+    ],
+    "descrizione": "Cascata visiva e veloce.",
+    "youtube_id": "dt0UrHFAoZ8",
+    "canale": "dealersgrip"
+  },
+  {
+    "id": "cascade",
+    "titolo": "Cascade",
+    "categoria": "cardistry",
+    "livello": 2,
+    "tags": [
+      "cascata",
+      "faro"
+    ],
+    "prerequisiti": [
+      "faro-cascade"
+    ],
+    "descrizione": "Esecuzione pulitissima di una cascata.",
+    "youtube_id": "H0uZAZ537kI",
+    "canale": "lotusinhand"
+  },
+  {
+    "id": "v-cut",
+    "titolo": "V Cut",
+    "categoria": "cardistry",
+    "livello": 2,
+    "tags": [
+      "taglio",
+      "multi-packet"
+    ],
+    "prerequisiti": [
+      "charlier-cut"
+    ],
+    "descrizione": "Apertura a V del mazzo.",
+    "youtube_id": "htcmc5HUdmw",
+    "canale": "CardMechanic"
+  },
+  {
+    "id": "squid-cut",
+    "titolo": "Squid Cut",
+    "categoria": "cardistry",
+    "livello": 2,
+    "tags": [
+      "taglio"
+    ],
+    "prerequisiti": [
+      "charlier-cut"
+    ],
+    "descrizione": "Fioritura asimmetrica.",
+    "youtube_id": "lj3ouPaiOhg",
+    "canale": "STEPHEN HAMMER"
+  },
+  {
+    "id": "mockingbird",
+    "titolo": "Mockingbird",
+    "categoria": "cardistry",
+    "livello": 3,
+    "tags": [
+      "taglio",
+      "avanzato"
+    ],
+    "prerequisiti": [
+      "sybil-cut"
+    ],
+    "descrizione": "Taglio esplosivo multi-packet.",
+    "youtube_id": "iNshScb6Z1s",
+    "canale": "Ekaterina"
+  },
+  {
+    "id": "plinko",
+    "titolo": "Plinko",
+    "categoria": "cardistry",
+    "livello": 3,
+    "tags": [
+      "cascata",
+      "avanzato"
+    ],
+    "prerequisiti": [
+      "spring"
+    ],
+    "descrizione": "Far cadere le carte come nel famoso gioco.",
+    "youtube_id": "cJ_CaigyTm0",
+    "canale": "Suryxel"
+  },
+  {
+    "id": "l-cut",
+    "titolo": "L Cut",
+    "categoria": "cardistry",
+    "livello": 2,
+    "tags": [
+      "taglio",
+      "una mano"
+    ],
+    "prerequisiti": [
+      "charlier-cut"
+    ],
+    "descrizione": "Taglio a una mano stiloso reso famoso da Jerry Cestkowski.",
+    "youtube_id": "5fwh3_FNeR4",
+    "canale": "dealersgrip"
+  }
+]

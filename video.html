@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="it" class="dark">
+<head>
+  <!-- Enterprise Security Headers -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdn.tailwindcss.com https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https://img.youtube.com https://i.ytimg.com; frame-src 'self' https://www.youtube-nocookie.com https://www.youtube.com;">
+  <meta http-equiv="X-Content-Type-Options" content="nosniff">
+  <meta http-equiv="X-Frame-Options" content="DENY">
+  <meta name="referrer" content="no-referrer">
+  <!-- Core Anti-Tampering Engine -->
+  <script src="js/security-core.js"></script>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lezione — OpenMagic</title>
+  <meta name="description" content="Impara le migliori tecniche e trucchi di cartomagia su OpenMagic con video e schede wiki dettagliate." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: { 400: '#60a5fa', 500: '#3b82f6', 600: '#2563eb' },
+            accent: { 400: '#a78bfa', 500: '#8b5cf6' }
+          },
+          fontFamily: {
+            sans: ['Outfit', 'sans-serif'],
+            display: ['"Space Grotesk"', 'sans-serif'],
+          }
+        }
+      }
+    };
+  </script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: {
+            serif: ['Cinzel', 'serif'],
+            sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+          }
+        }
+      }
+    };
+  </script>
+</head>
+<body class="bg-[#050505] text-slate-100 min-h-screen antialiased font-sans">
+  <header id="site-header" class="border-b border-zinc-800/80 bg-[#050505]/90 backdrop-blur sticky top-0 z-50"></header>
+  <main class="max-w-6xl mx-auto px-4 py-8" id="video-root">
+    <p class="text-zinc-500">Caricamento lezione…</p>
+  </main>
+  <footer id="site-footer" class="border-t border-zinc-800 mt-12"></footer>
+  <script type="module" src="js/video-page.js"></script>
+  <script type="module" src="js/interactions.js"></script>
+</body>
+</html>

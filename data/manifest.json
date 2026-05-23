@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "updated": "2026-05-23",
+  "total": 186,
+  "chunks": [
+    "cardistry.json",
+    "tecnica.json",
+    "trucco.json"
+  ]
+}

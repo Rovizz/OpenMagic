@@ -1,0 +1,887 @@
+[
+  {
+    "id": "21-cards",
+    "titolo": "Le 21 Carte",
+    "categoria": "trucco",
+    "livello": 1,
+    "tags": [
+      "automatico",
+      "matematico"
+    ],
+    "youtube_id": "w3ncGQEEUsA",
+    "canale": "Mismag822",
+    "descrizione": "Il classico trucco matematico: trovare la carta scelta dopo tre distribuzioni.",
+    "prerequisiti": [
+      "dealing-position"
+    ]
+  },
+  {
+    "id": "key-card",
+    "titolo": "Key Card",
+    "categoria": "trucco",
+    "livello": 1,
+    "tags": [
+      "principio",
+      "facile"
+    ],
+    "youtube_id": "jZ1hvOXr3pI",
+    "canale": "Mismag822",
+    "descrizione": "Trovare una carta usando una carta chiave nascosta. Principio fondamentale.",
+    "prerequisiti": [
+      "pinky-break"
+    ]
+  },
+  {
+    "id": "do-as-i-do",
+    "titolo": "Gemelli d'Oro / Do as I Do",
+    "categoria": "trucco",
+    "livello": 1,
+    "tags": [
+      "sincronia",
+      "coppie"
+    ],
+    "youtube_id": "AAEkRvSYtIY",
+    "canale": "Chris Ramsay",
+    "descrizione": "Due mazzi, stessi movimenti: alla fine le carte scelte coincidono.",
+    "prerequisiti": [
+      "overhand-shuffle"
+    ]
+  },
+  {
+    "id": "ambitious-card",
+    "titolo": "Carta Ambiziosa (Ambitious Card)",
+    "categoria": "trucco",
+    "livello": 2,
+    "tags": [
+      "routine",
+      "classico"
+    ],
+    "youtube_id": "Zgl5eqTiiE4",
+    "canale": "52Kards",
+    "descrizione": "La carta firmata torna sempre in cima, non importa quanto la seppellisci.",
+    "prerequisiti": [
+      "double-lift",
+      "double-undercut",
+      "hindu-shuffle"
+    ]
+  },
+  {
+    "id": "chicago-surprise",
+    "titolo": "Chicago Surprise / Red Hot Mama",
+    "categoria": "trucco",
+    "livello": 2,
+    "tags": [
+      "colore",
+      "sorpresa"
+    ],
+    "youtube_id": "xMwmEDzBqeY",
+    "canale": "Mismag822",
+    "descrizione": "Una carta cambia colore nel mazzo. Variante moderna del Chicago Opener.",
+    "prerequisiti": [
+      "double-lift",
+      "glide"
+    ]
+  },
+  {
+    "id": "triumph",
+    "titolo": "Triumph (Slop Shuffle)",
+    "categoria": "trucco",
+    "livello": 2,
+    "tags": [
+      "routine",
+      "vernon"
+    ],
+    "youtube_id": "PQpQwLBDQKw",
+    "canale": "52Kards",
+    "descrizione": "Mazzo mescolato faccia su e giù si riordina, tranne la carta scelta.",
+    "prerequisiti": [
+      "overhand-shuffle",
+      "pinky-break",
+      "double-undercut"
+    ]
+  },
+  {
+    "id": "two-card-monte",
+    "titolo": "Two Card Monte",
+    "categoria": "trucco",
+    "livello": 2,
+    "tags": [
+      "street",
+      "veloce"
+    ],
+    "youtube_id": "Mm0EcpCkCi8",
+    "canale": "Mismag822",
+    "descrizione": "Trucco da strada con due carte: lo spettatore non trova mai quella giusta.",
+    "prerequisiti": [
+      "glide",
+      "double-lift"
+    ]
+  },
+  {
+    "id": "out-of-this-world",
+    "titolo": "Out of This World",
+    "categoria": "trucco",
+    "livello": 3,
+    "tags": [
+      "miracolo",
+      "paul curry"
+    ],
+    "youtube_id": "e_RJIHk4K8c",
+    "canale": "Mismag822",
+    "descrizione": "Lo spettatore separa rossi e neri senza guardare le facce. Effetto impossibile.",
+    "prerequisiti": [
+      "overhand-shuffle",
+      "pinky-break"
+    ]
+  },
+  {
+    "id": "reset",
+    "titolo": "Reset",
+    "categoria": "trucco",
+    "livello": 3,
+    "tags": [
+      "trasformazione",
+      "assi"
+    ],
+    "youtube_id": "1CUJaUvgK84",
+    "canale": "Kimoon",
+    "descrizione": "Quattro assi diventano quattro re e tornano assi. Routine di Paul Harris.",
+    "prerequisiti": [
+      "double-lift",
+      "elmsley-count"
+    ]
+  },
+  {
+    "id": "acaan",
+    "titolo": "ACAAN",
+    "categoria": "trucco",
+    "livello": 3,
+    "tags": [
+      "mentalismo",
+      "impossibile"
+    ],
+    "youtube_id": "VOTqjzuoWZ4",
+    "canale": "Mismag822",
+    "descrizione": "Any Card At Any Number: carta e numero liberi, carta trovata esatta.",
+    "prerequisiti": [
+      "riffle-force",
+      "double-undercut",
+      "pinky-break"
+    ]
+  },
+  {
+    "id": "card-to-wallet",
+    "titolo": "Carta nel Portafoglio",
+    "categoria": "trucco",
+    "livello": 3,
+    "tags": [
+      "vanish",
+      "wallet"
+    ],
+    "youtube_id": "-LEXt7Wj5sA",
+    "canale": "The Card Trick Teacher",
+    "descrizione": "Carta firmata sparisce e riappare nel portafoglio sigillato del mago.",
+    "prerequisiti": [
+      "classic-palm",
+      "double-lift"
+    ]
+  },
+  {
+    "id": "invisible-deck-routine",
+    "titolo": "Routine Invisible Deck",
+    "categoria": "trucco",
+    "livello": 1,
+    "tags": [
+      "routine",
+      "gimmick"
+    ],
+    "descrizione": "Una routine pazzesca dove una carta pensata risulta l'unica capovolta in un mazzo tenuto fermo.",
+    "prerequisiti": [
+      "invisible-deck-basics"
+    ],
+    "youtube_id": "sL87cp_mVYk",
+    "canale": "A Million Card Tricks"
+  },
+  {
+    "id": "svengali-routine",
+    "titolo": "Routine Svengali Completa",
+    "categoria": "trucco",
+    "livello": 1,
+    "tags": [
+      "routine",
+      "gimmick"
+    ],
+    "descrizione": "Come strabiliare col mazzo Svengali dalla forzatura al cambio totale del mazzo.",
+    "prerequisiti": [
+      "svengali-basics"
+    ],
+    "youtube_id": "b8rkmLYfVCw",
+    "canale": "AboutMagic"
+  },
+  {
+    "id": "stripper-find-four",
+    "titolo": "Trova i 4 Assi (Stripper)",
+    "categoria": "trucco",
+    "livello": 1,
+    "tags": [
+      "routine",
+      "gimmick"
+    ],
+    "descrizione": "Ritrovare istantaneamente i quattro assi mescolati nel mazzo.",
+    "prerequisiti": [
+      "stripper-deck-basics"
+    ],
+    "youtube_id": "ykDgEEk39h0",
+    "canale": "The Magic Channel"
+  },
+  {
+    "id": "biddle-trick",
+    "titolo": "The Biddle Trick",
+    "categoria": "trucco",
+    "livello": 2,
+    "tags": [
+      "classico",
+      "vanish"
+    ],
+    "descrizione": "5 carte, lo spettatore ne pensa una. Sparisce dalle 5 e si ritrova nel mazzo.",
+    "prerequisiti": [
+      "biddle-steal"
+    ],
+    "youtube_id": "wNo5dXwW5hM",
+    "canale": "Disturb Reality"
+  },
+  {
+    "id": "design-for-laughter",
+    "titolo": "Design for Laughter",
+    "categoria": "trucco",
+    "livello": 1,
+    "tags": [
+      "royal-road",
+      "classico"
+    ],
+    "descrizione": "Dalla Royal Road to Card Magic: si scambia la carta con un Glide lasciando lo spettatore confuso.",
+    "prerequisiti": [
+      "glide"
+    ],
+    "youtube_id": "T7_aSo3uPRc",
+    "canale": "52Kards"
+  },
+  {
+    "id": "designated-hitter",
+    "titolo": "Designated Hitter",
+    "categoria": "trucco",
+    "livello": 2,
+    "tags": [
+      "impromptu",
+      "sorpresa"
+    ],
+    "descrizione": "Una bellissima routine dove una carta predetta aiuta a trovare la selezione.",
+    "prerequisiti": [
+      "double-lift"
+    ],
+    "youtube_id": "Vv2WDv2AJeU",
+    "canale": "Building Better Baseball"
+  },
+  {
+    "id": "french-kiss",
+    "titolo": "French Kiss",
+    "categoria": "trucco",
+    "livello": 3,
+    "tags": [
+      "street",
+      "sorpresa"
+    ],
+    "descrizione": "Le carte piegate e firmate finiscono per scambiarsi direttamente nella bocca dello spettatore (Wayne Houchin).",
+    "prerequisiti": [
+      "mercury-fold"
+    ],
+    "youtube_id": "K9lO9IWWhq4",
+    "canale": "theory11"
+  },
+  {
+    "id": "here-then-there",
+    "titolo": "Here Then There",
+    "categoria": "trucco",
+    "livello": 2,
+    "tags": [
+      "street",
+      "scambio"
+    ],
+    "descrizione": "La carta in mano del mago si scambia incredibilmente con quella nella mano dello spettatore.",
+    "prerequisiti": [
+      "double-lift"
+    ],
+    "youtube_id": "n1TGCg8VPyo",
+    "canale": "Disturb Reality"
+  },
+  {
+    "id": "b-wave",
+    "titolo": "B-Wave (Basi)",
+    "categoria": "trucco",
+    "livello": 2,
+    "tags": [
+      "packet",
+      "mentalismo"
+    ],
+    "descrizione": "Il celebre effetto packet di Max Maven: una regina scelta liberamente è l'unica faccia in su e l'unica con dorso diverso.",
+    "prerequisiti": [
+      "elmsley-count"
+    ],
+    "youtube_id": "uaZ14GNJMpE",
+    "canale": "Marketing Magic"
+  },
+  {
+    "id": "twisting-the-aces",
+    "titolo": "Twisting the Aces",
+    "categoria": "trucco",
+    "livello": 3,
+    "tags": [
+      "packet",
+      "classico"
+    ],
+    "descrizione": "I 4 assi girano a faccia in su uno ad uno con una semplice torsione, capolavoro di Vernon.",
+    "prerequisiti": [
+      "elmsley-count"
+    ],
+    "youtube_id": "nNiR7de7Nsw",
+    "canale": "Steven Taputoro"
+  },
+  {
+    "id": "cannibal-cards",
+    "titolo": "Cannibal Cards",
+    "categoria": "trucco",
+    "livello": 3,
+    "tags": [
+      "packet",
+      "storytelling"
+    ],
+    "descrizione": "Quattro re \"cannibali\" mangiano uno alla volta le altre carte.",
+    "prerequisiti": [
+      "atfus"
+    ],
+    "youtube_id": "E4J_dvKfFhQ",
+    "canale": "Murphy's Magic"
+  },
+  {
+    "id": "oil-and-water",
+    "titolo": "Oil and Water (Acqua e Olio)",
+    "categoria": "trucco",
+    "livello": 3,
+    "tags": [
+      "packet",
+      "classico"
+    ],
+    "descrizione": "Carte rosse e nere mescolate si separano sempre da sole.",
+    "prerequisiti": [
+      "elmsley-count"
+    ],
+    "youtube_id": "WrjWrywznms",
+    "canale": "Jeremy Tan"
+  },
+  {
+    "id": "dr-daleys-last-trick",
+    "titolo": "Dr. Daley's Last Trick",
+    "categoria": "trucco",
+    "livello": 2,
+    "tags": [
+      "packet",
+      "classico"
+    ],
+    "descrizione": "Due assi rossi e due neri si scambiano di posto nelle mani degli spettatori, impatto enorme.",
+    "prerequisiti": [
+      "double-lift"
+    ],
+    "youtube_id": "PWMN67Slsvk",
+    "canale": "Jason Maher"
+  },
+  {
+    "id": "macdonalds-aces",
+    "titolo": "MacDonald's Aces",
+    "categoria": "trucco",
+    "livello": 3,
+    "tags": [
+      "gimmick",
+      "assi"
+    ],
+    "descrizione": "La scomparsa più pulita e visiva degli assi da 3 mazzetti per riunirsi nel mazzetto master.",
+    "prerequisiti": [
+      "double-lift"
+    ],
+    "youtube_id": "Cw_T9rNuMc4",
+    "canale": "Best Magic"
+  },
+  {
+    "id": "haunted-deck",
+    "titolo": "Haunted Deck (Loop)",
+    "categoria": "trucco",
+    "livello": 2,
+    "tags": [
+      "loop",
+      "street"
+    ],
+    "descrizione": "Il mazzo si taglia da solo e spinge fuori la carta, animato magicamente (usando loops).",
+    "prerequisiti": [],
+    "youtube_id": "lYlfGbpET3M",
+    "canale": "52Kards"
+  },
+  {
+    "id": "color-monte",
+    "titolo": "Color Monte",
+    "categoria": "trucco",
+    "livello": 2,
+    "tags": [
+      "packet",
+      "street"
+    ],
+    "descrizione": "Routine da strada in cui uno spettatore cerca di seguire il diamante rosso, finendo con un dollaro di sorpresa.",
+    "prerequisiti": [
+      "glide"
+    ],
+    "youtube_id": "nSkIAZbL2Nw",
+    "canale": "CardsRFun"
+  },
+  {
+    "id": "jazz-aces",
+    "titolo": "Jazz Aces",
+    "categoria": "trucco",
+    "livello": 3,
+    "tags": [
+      "packet",
+      "assi"
+    ],
+    "descrizione": "Gli assi spariscono per raggiungere l'asso leader. Effetto simile ai MacDonalds ma impromptu.",
+    "prerequisiti": [
+      "elmsley-count"
+    ],
+    "youtube_id": "6SN8tJpvzfQ",
+    "canale": "Craig Petty's Magic TV"
+  },
+  {
+    "id": "card-warp",
+    "titolo": "Card Warp",
+    "categoria": "trucco",
+    "livello": 2,
+    "tags": [
+      "street",
+      "illusione"
+    ],
+    "descrizione": "Una carta si rivolta dentro un'altra usata come tunnel. Illusione visiva fantastica creata da Roy Walton.",
+    "prerequisiti": [],
+    "youtube_id": "T2CxPjFNFmg",
+    "canale": "Murphy's Magic"
+  },
+  {
+    "id": "anniversary-waltz",
+    "titolo": "Anniversary Waltz",
+    "categoria": "trucco",
+    "livello": 3,
+    "tags": [
+      "romantico",
+      "firme"
+    ],
+    "descrizione": "Due carte firmate da due innamorati si fondono in un'unica carta. Ottimo per coppie.",
+    "prerequisiti": [
+      "double-lift"
+    ],
+    "youtube_id": "1nD1itcs1Z8",
+    "canale": "Card Mat Tutorials"
+  },
+  {
+    "id": "invisible-palm",
+    "titolo": "Invisible Palm",
+    "categoria": "trucco",
+    "livello": 3,
+    "tags": [
+      "palming",
+      "assi"
+    ],
+    "descrizione": "Gli assi diventano invisibili e viaggiano sul tavolo, routine famosa di Paul Harris.",
+    "prerequisiti": [
+      "tent-vanish"
+    ],
+    "youtube_id": "qCdZ1HuTXgE",
+    "canale": "Sean Devine"
+  },
+  {
+    "id": "collector",
+    "titolo": "The Collectors",
+    "categoria": "trucco",
+    "livello": 3,
+    "tags": [
+      "assi",
+      "cull"
+    ],
+    "descrizione": "I quattro assi \"catturano\" le tre carte selezionate precedentemente disperse nel mazzo.",
+    "prerequisiti": [
+      "cull"
+    ],
+    "youtube_id": "OpXrlFw5OxY",
+    "canale": "BRANDON ELLIS"
+  },
+  {
+    "id": "spectator-cuts-to-aces",
+    "titolo": "Spectator Cuts to the Aces",
+    "categoria": "trucco",
+    "livello": 2,
+    "tags": [
+      "impromptu",
+      "assi"
+    ],
+    "descrizione": "Lo spettatore taglia il mazzo in 4 mazzetti e miracolosamente trova i 4 assi.",
+    "prerequisiti": [
+      "slip-cut"
+    ],
+    "youtube_id": "D-mcRJ6D-Dw",
+    "canale": "4suits - card magic"
+  },
+  {
+    "id": "play-it-straight",
+    "titolo": "Play It Straight Triumph",
+    "categoria": "trucco",
+    "livello": 3,
+    "tags": [
+      "triumph",
+      "sorpresa"
+    ],
+    "descrizione": "Triumph letale in cui il mazzo si riordina tranne l'intero seme della carta scelta (John Bannon).",
+    "prerequisiti": [
+      "faro-shuffle"
+    ],
+    "youtube_id": "gSYbdNTMccE",
+    "canale": "RbnJrg"
+  },
+  {
+    "id": "las-vegas-leaper",
+    "titolo": "Las Vegas Leaper",
+    "categoria": "trucco",
+    "livello": 2,
+    "tags": [
+      "cards-across",
+      "paul-harris"
+    ],
+    "descrizione": "Classica routine \"Cards Across\", le carte viaggiano dalle mani del mago alle mani dello spettatore.",
+    "prerequisiti": [
+      "biddle-grip"
+    ],
+    "youtube_id": "ts7CiodlrPI",
+    "canale": "TheDivimagicshop"
+  },
+  {
+    "id": "lazy-mans-card-trick",
+    "titolo": "Lazy Man's Card Trick",
+    "categoria": "trucco",
+    "livello": 1,
+    "tags": [
+      "impromptu",
+      "matematico"
+    ],
+    "descrizione": "Il mago non fa nulla, è lo spettatore a mescolare e trovare la carta usando il suo valore.",
+    "prerequisiti": [
+      "key-card"
+    ],
+    "youtube_id": "F7mU2r6IpQ8",
+    "canale": "Sean Devine"
+  },
+  {
+    "id": "four-ace-production",
+    "titolo": "Four Ace Production (varie)",
+    "categoria": "trucco",
+    "livello": 2,
+    "tags": [
+      "flourish",
+      "produzione"
+    ],
+    "descrizione": "Vari modi eleganti e veloci per produrre 4 assi da un mazzo mescolato per iniziare una routine.",
+    "prerequisiti": [
+      "swing-cut"
+    ],
+    "youtube_id": "1p5gG19PiB8",
+    "canale": "CardMechanic"
+  },
+  {
+    "id": "brainwave",
+    "titolo": "Brainwave Deck",
+    "categoria": "trucco",
+    "livello": 1,
+    "tags": [
+      "gimmick",
+      "mentalismo"
+    ],
+    "descrizione": "Variante dell'invisible deck in cui la carta pensata non solo è l'unica a faccia in su ma ha pure il dorso di colore diverso.",
+    "prerequisiti": [
+      "invisible-deck-basics"
+    ],
+    "youtube_id": "frtJA0aq-Rs",
+    "canale": "Best Magic"
+  },
+  {
+    "id": "multiple-selection",
+    "titolo": "Multiple Selection Routine",
+    "categoria": "trucco",
+    "livello": 3,
+    "tags": [
+      "routine",
+      "spettacolo"
+    ],
+    "descrizione": "Vengono fatte scegliere e poi perse 5+ carte e ritrovate tutte in modi scenici e uno diverso dall'altro.",
+    "prerequisiti": [
+      "cull"
+    ],
+    "youtube_id": "tmpw0wc6DdM",
+    "canale": "MLT Magic Tricks"
+  },
+  {
+    "id": "triumph-vernon",
+    "titolo": "Triumph (Vernon Original)",
+    "categoria": "trucco",
+    "livello": 3,
+    "tags": [
+      "triumph",
+      "vernon"
+    ],
+    "prerequisiti": [
+      "classic-pass"
+    ],
+    "descrizione": "La versione purista e originale del Triumph di Dai Vernon con uno Zarrow o Pull through shuffle.",
+    "youtube_id": "PQpQwLBDQKw",
+    "canale": "52Kards"
+  },
+  {
+    "id": "invisible-deck-advanced",
+    "titolo": "Invisible Deck Avanzato",
+    "categoria": "trucco",
+    "livello": 2,
+    "tags": [
+      "routine",
+      "gimmick"
+    ],
+    "prerequisiti": [
+      "invisible-deck-basics"
+    ],
+    "descrizione": "Tecniche avanzate di presentazione per far sembrare che il mazzo non sia truccato.",
+    "youtube_id": "sL87cp_mVYk",
+    "canale": "A Million Card Tricks"
+  },
+  {
+    "id": "red-hot-mama",
+    "titolo": "Red Hot Mama",
+    "categoria": "trucco",
+    "livello": 2,
+    "tags": [
+      "colore",
+      "routine"
+    ],
+    "prerequisiti": [
+      "double-lift"
+    ],
+    "descrizione": "Variante classica del Chicago Opener.",
+    "youtube_id": "yYCoOfS2EDQ",
+    "canale": "Card Perfect Magician"
+  },
+  {
+    "id": "sympathetic-cards",
+    "titolo": "Sympathetic Cards",
+    "categoria": "trucco",
+    "livello": 3,
+    "tags": [
+      "routine",
+      "spettacolo"
+    ],
+    "prerequisiti": [
+      "cull"
+    ],
+    "descrizione": "Due mazzi si comportano in modo identico e simpatico.",
+    "youtube_id": "Yi_vlhG_aKE",
+    "canale": "Rob Power"
+  },
+  {
+    "id": "sympathetic-ten",
+    "titolo": "Sympathetic Ten",
+    "categoria": "trucco",
+    "livello": 3,
+    "tags": [
+      "packet",
+      "mentalismo"
+    ],
+    "prerequisiti": [
+      "double-lift"
+    ],
+    "descrizione": "Una routine mentale incredibile dove 10 carte cambiano valore e seme.",
+    "youtube_id": "Yi_vlhG_aKE",
+    "canale": "Rob Power"
+  },
+  {
+    "id": "wild-card",
+    "titolo": "Wild Card",
+    "categoria": "trucco",
+    "livello": 3,
+    "tags": [
+      "gimmick",
+      "cambio"
+    ],
+    "prerequisiti": [
+      "elmsley-count"
+    ],
+    "descrizione": "Una carta 'selvaggia' trasforma magicamente altre 8 carte per diventare identiche a lei.",
+    "youtube_id": "3AlbWIDVcSU",
+    "canale": "cardtrickteacher"
+  },
+  {
+    "id": "color-changing-deck",
+    "titolo": "Color Changing Deck",
+    "categoria": "trucco",
+    "livello": 2,
+    "tags": [
+      "colore",
+      "routine"
+    ],
+    "prerequisiti": [
+      "hindu-shuffle"
+    ],
+    "descrizione": "Un mazzo blu diventa tutto rosso, pezzo per pezzo, poi tutto in una volta.",
+    "youtube_id": "QWH2fUwen2U",
+    "canale": "Best Magic"
+  },
+  {
+    "id": "chicago-opener",
+    "titolo": "Chicago Opener",
+    "categoria": "trucco",
+    "livello": 2,
+    "tags": [
+      "colore",
+      "routine"
+    ],
+    "prerequisiti": [
+      "double-lift"
+    ],
+    "descrizione": "Una carta scelta diventa rossa e si usa per trovare una seconda selezione.",
+    "youtube_id": "QWH2fUwen2U",
+    "canale": "Best Magic"
+  },
+  {
+    "id": "card-to-mouth",
+    "titolo": "Card to Mouth",
+    "categoria": "trucco",
+    "livello": 3,
+    "tags": [
+      "street",
+      "misdirection"
+    ],
+    "prerequisiti": [
+      "classic-palm"
+    ],
+    "descrizione": "La carta dello spettatore sparisce per apparire piegata nella bocca del mago.",
+    "youtube_id": "93ZH2dBW_Is",
+    "canale": "52Kards"
+  },
+  {
+    "id": "card-in-box",
+    "titolo": "Card in Box",
+    "categoria": "trucco",
+    "livello": 2,
+    "tags": [
+      "street",
+      "impossibile"
+    ],
+    "prerequisiti": [
+      "mercury-fold"
+    ],
+    "descrizione": "La carta scelta riappare all'interno dell'astuccio vuoto del mazzo.",
+    "youtube_id": "ZONPSxpaQNo",
+    "canale": "Sean Devine"
+  },
+  {
+    "id": "card-on-ceiling",
+    "titolo": "Card on Ceiling",
+    "categoria": "trucco",
+    "livello": 2,
+    "tags": [
+      "street",
+      "impossibile"
+    ],
+    "prerequisiti": [
+      "double-lift"
+    ],
+    "descrizione": "Lanciando il mazzo in aria, la carta firmata rimane incollata al soffitto.",
+    "youtube_id": "1oy3DDnSizY",
+    "canale": "Murphy's Magic"
+  },
+  {
+    "id": "torn-and-restored",
+    "titolo": "Torn and Restored (T&R)",
+    "categoria": "trucco",
+    "livello": 3,
+    "tags": [
+      "gimmick",
+      "restauro"
+    ],
+    "prerequisiti": [
+      "mercury-fold"
+    ],
+    "descrizione": "Una carta viene strappata in 4 pezzi e fusa visivamente di nuovo insieme.",
+    "youtube_id": "HfnaFgls47U",
+    "canale": "Making Impossible"
+  },
+  {
+    "id": "shatter",
+    "titolo": "Shatter",
+    "categoria": "trucco",
+    "livello": 2,
+    "tags": [
+      "visual",
+      "cambio"
+    ],
+    "prerequisiti": [
+      "double-lift"
+    ],
+    "descrizione": "Effetto super visivo dove una carta sembra frantumarsi e trasformarsi.",
+    "youtube_id": "HfnaFgls47U",
+    "canale": "Making Impossible"
+  },
+  {
+    "id": "the-trick-that-cannot-be-explained",
+    "titolo": "The Trick That Cannot Be Explained",
+    "categoria": "trucco",
+    "livello": 3,
+    "tags": [
+      "jazz-magic",
+      "vernon"
+    ],
+    "prerequisiti": [
+      "pinky-break"
+    ],
+    "descrizione": "Un trucco di Vernon basato su jazz magic puro e sulle reazioni dello spettatore, non c'è script fisso.",
+    "youtube_id": "0KMedyfGLX0",
+    "canale": "A Million Card Tricks"
+  },
+  {
+    "id": "open-prediction",
+    "titolo": "Open Prediction",
+    "categoria": "trucco",
+    "livello": 3,
+    "tags": [
+      "mentalismo"
+    ],
+    "prerequisiti": [
+      "pinky-break"
+    ],
+    "descrizione": "Il mago dichiara una carta, lo spettatore gira le carte faccia in su a piacimento tranne una faccia in giù... ed è la predizione.",
+    "youtube_id": "w75XE4ZErmU",
+    "canale": "Sean Devine"
+  },
+  {
+    "id": "any-deck-any-time",
+    "titolo": "Any Deck Any Time",
+    "categoria": "trucco",
+    "livello": 1,
+    "tags": [
+      "impromptu"
+    ],
+    "prerequisiti": [
+      "key-card"
+    ],
+    "descrizione": "Routine generica fortissima per quando ti prestano un mazzo mescolato.",
+    "youtube_id": "dEfhfDWHJkg",
+    "canale": "MLT Magic Tricks"
+  }
+]

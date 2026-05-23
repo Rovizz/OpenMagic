@@ -1,0 +1,539 @@
+[
+  {
+    "id": "triumph-vernon",
+    "titolo": "Triumph (Vernon Original)",
+    "categoria": "trucco",
+    "livello": 3,
+    "tags": [
+      "triumph",
+      "vernon"
+    ],
+    "prerequisiti": [
+      "classic-pass"
+    ],
+    "descrizione": "La versione purista e originale del Triumph di Dai Vernon con uno Zarrow o Pull through shuffle.",
+    "search_query": "dai vernon triumph original tutorial"
+  },
+  {
+    "id": "invisible-deck-advanced",
+    "titolo": "Invisible Deck Avanzato",
+    "categoria": "trucco",
+    "livello": 2,
+    "tags": [
+      "routine",
+      "gimmick"
+    ],
+    "prerequisiti": [
+      "invisible-deck-basics"
+    ],
+    "descrizione": "Tecniche avanzate di presentazione per far sembrare che il mazzo non sia truccato.",
+    "search_query": "invisible deck advanced routine tutorial"
+  },
+  {
+    "id": "red-hot-mama",
+    "titolo": "Red Hot Mama",
+    "categoria": "trucco",
+    "livello": 2,
+    "tags": [
+      "colore",
+      "routine"
+    ],
+    "prerequisiti": [
+      "double-lift"
+    ],
+    "descrizione": "Variante classica del Chicago Opener.",
+    "search_query": "red hot mama card trick tutorial"
+  },
+  {
+    "id": "sympathetic-cards",
+    "titolo": "Sympathetic Cards",
+    "categoria": "trucco",
+    "livello": 3,
+    "tags": [
+      "routine",
+      "spettacolo"
+    ],
+    "prerequisiti": [
+      "cull"
+    ],
+    "descrizione": "Due mazzi si comportano in modo identico e simpatico.",
+    "search_query": "sympathetic cards magic trick tutorial"
+  },
+  {
+    "id": "sympathetic-ten",
+    "titolo": "Sympathetic Ten",
+    "categoria": "trucco",
+    "livello": 3,
+    "tags": [
+      "packet",
+      "mentalismo"
+    ],
+    "prerequisiti": [
+      "double-lift"
+    ],
+    "descrizione": "Una routine mentale incredibile dove 10 carte cambiano valore e seme.",
+    "search_query": "sympathetic ten card magic tutorial"
+  },
+  {
+    "id": "wild-card",
+    "titolo": "Wild Card",
+    "categoria": "trucco",
+    "livello": 3,
+    "tags": [
+      "gimmick",
+      "cambio"
+    ],
+    "prerequisiti": [
+      "elmsley-count"
+    ],
+    "descrizione": "Una carta 'selvaggia' trasforma magicamente altre 8 carte per diventare identiche a lei.",
+    "search_query": "wild card magic trick tutorial"
+  },
+  {
+    "id": "color-changing-deck",
+    "titolo": "Color Changing Deck",
+    "categoria": "trucco",
+    "livello": 2,
+    "tags": [
+      "colore",
+      "routine"
+    ],
+    "prerequisiti": [
+      "hindu-shuffle"
+    ],
+    "descrizione": "Un mazzo blu diventa tutto rosso, pezzo per pezzo, poi tutto in una volta.",
+    "search_query": "color changing deck tutorial card magic"
+  },
+  {
+    "id": "chicago-opener",
+    "titolo": "Chicago Opener",
+    "categoria": "trucco",
+    "livello": 2,
+    "tags": [
+      "colore",
+      "routine"
+    ],
+    "prerequisiti": [
+      "double-lift"
+    ],
+    "descrizione": "Una carta scelta diventa rossa e si usa per trovare una seconda selezione.",
+    "search_query": "chicago opener card trick tutorial"
+  },
+  {
+    "id": "card-to-mouth",
+    "titolo": "Card to Mouth",
+    "categoria": "trucco",
+    "livello": 3,
+    "tags": [
+      "street",
+      "misdirection"
+    ],
+    "prerequisiti": [
+      "classic-palm"
+    ],
+    "descrizione": "La carta dello spettatore sparisce per apparire piegata nella bocca del mago.",
+    "search_query": "card to mouth magic trick tutorial"
+  },
+  {
+    "id": "card-in-box",
+    "titolo": "Card in Box",
+    "categoria": "trucco",
+    "livello": 2,
+    "tags": [
+      "street",
+      "impossibile"
+    ],
+    "prerequisiti": [
+      "mercury-fold"
+    ],
+    "descrizione": "La carta scelta riappare all'interno dell'astuccio vuoto del mazzo.",
+    "search_query": "card in box magic trick tutorial"
+  },
+  {
+    "id": "card-thru-window",
+    "titolo": "Card thru Window",
+    "categoria": "trucco",
+    "livello": 3,
+    "tags": [
+      "street",
+      "impossibile"
+    ],
+    "prerequisiti": [
+      "double-lift"
+    ],
+    "descrizione": "Classica illusione televisiva: la carta scelta finisce attaccata dall'altra parte del vetro.",
+    "search_query": "card through window magic trick tutorial"
+  },
+  {
+    "id": "card-on-ceiling",
+    "titolo": "Card on Ceiling",
+    "categoria": "trucco",
+    "livello": 2,
+    "tags": [
+      "street",
+      "impossibile"
+    ],
+    "prerequisiti": [
+      "double-lift"
+    ],
+    "descrizione": "Lanciando il mazzo in aria, la carta firmata rimane incollata al soffitto.",
+    "search_query": "card on ceiling magic trick tutorial"
+  },
+  {
+    "id": "torn-and-restored",
+    "titolo": "Torn and Restored (T&R)",
+    "categoria": "trucco",
+    "livello": 3,
+    "tags": [
+      "gimmick",
+      "restauro"
+    ],
+    "prerequisiti": [
+      "mercury-fold"
+    ],
+    "descrizione": "Una carta viene strappata in 4 pezzi e fusa visivamente di nuovo insieme.",
+    "search_query": "torn and restored card trick tutorial"
+  },
+  {
+    "id": "shatter",
+    "titolo": "Shatter",
+    "categoria": "trucco",
+    "livello": 2,
+    "tags": [
+      "visual",
+      "cambio"
+    ],
+    "prerequisiti": [
+      "double-lift"
+    ],
+    "descrizione": "Effetto super visivo dove una carta sembra frantumarsi e trasformarsi.",
+    "search_query": "shatter card trick tutorial"
+  },
+  {
+    "id": "the-trick-that-cannot-be-explained",
+    "titolo": "The Trick That Cannot Be Explained",
+    "categoria": "trucco",
+    "livello": 3,
+    "tags": [
+      "jazz-magic",
+      "vernon"
+    ],
+    "prerequisiti": [
+      "pinky-break"
+    ],
+    "descrizione": "Un trucco di Vernon basato su jazz magic puro e sulle reazioni dello spettatore, non c'è script fisso.",
+    "search_query": "the trick that cannot be explained dai vernon"
+  },
+  {
+    "id": "open-prediction",
+    "titolo": "Open Prediction",
+    "categoria": "trucco",
+    "livello": 3,
+    "tags": [
+      "mentalismo"
+    ],
+    "prerequisiti": [
+      "pinky-break"
+    ],
+    "descrizione": "Il mago dichiara una carta, lo spettatore gira le carte faccia in su a piacimento tranne una faccia in giù... ed è la predizione.",
+    "search_query": "open prediction card trick tutorial paul curry"
+  },
+  {
+    "id": "any-deck-any-time",
+    "titolo": "Any Deck Any Time",
+    "categoria": "trucco",
+    "livello": 1,
+    "tags": [
+      "impromptu"
+    ],
+    "prerequisiti": [
+      "key-card"
+    ],
+    "descrizione": "Routine generica fortissima per quando ti prestano un mazzo mescolato.",
+    "search_query": "impromptu card trick any deck any time tutorial"
+  },
+  {
+    "id": "zarrow-shuffle-advanced",
+    "titolo": "Zarrow Shuffle Avanzato",
+    "categoria": "tecnica",
+    "livello": 3,
+    "tags": [
+      "miscugli",
+      "falso"
+    ],
+    "prerequisiti": [
+      "zarrow-shuffle"
+    ],
+    "descrizione": "Dettagli per rendere lo Zarrow invisibile anche da angolazioni strette.",
+    "search_query": "zarrow shuffle advanced tips"
+  },
+  {
+    "id": "anti-faro",
+    "titolo": "Anti-Faro",
+    "categoria": "tecnica",
+    "livello": 3,
+    "tags": [
+      "miscugli",
+      "falso"
+    ],
+    "prerequisiti": [
+      "faro-shuffle"
+    ],
+    "descrizione": "Il difficile procedimento di togliere le carte dispari dalle pari, inverso del faro.",
+    "search_query": "anti faro shuffle tutorial christian engblom"
+  },
+  {
+    "id": "perfect-faro",
+    "titolo": "Faro Perfetto",
+    "categoria": "tecnica",
+    "livello": 3,
+    "tags": [
+      "miscugli",
+      "faro"
+    ],
+    "prerequisiti": [
+      "faro-shuffle"
+    ],
+    "descrizione": "Dettagli e posizioni delle dita per non fallire mai un Faro in e out.",
+    "search_query": "perfect faro shuffle tutorial"
+  },
+  {
+    "id": "false-overhand",
+    "titolo": "False Overhand Shuffle",
+    "categoria": "tecnica",
+    "livello": 1,
+    "tags": [
+      "miscugli",
+      "falso"
+    ],
+    "prerequisiti": [
+      "overhand-shuffle"
+    ],
+    "descrizione": "Un overhand shuffle che trattiene il mazzo intero.",
+    "search_query": "false overhand shuffle card magic tutorial"
+  },
+  {
+    "id": "false-riffle-tabled",
+    "titolo": "False Tabled Riffle",
+    "categoria": "tecnica",
+    "livello": 2,
+    "tags": [
+      "miscugli",
+      "falso"
+    ],
+    "prerequisiti": [
+      "riffle-shuffle"
+    ],
+    "descrizione": "Miscuglio al tavolo falso stile casino.",
+    "search_query": "false tabled riffle shuffle tutorial"
+  },
+  {
+    "id": "spread-pass",
+    "titolo": "Spread Pass",
+    "categoria": "tecnica",
+    "livello": 3,
+    "tags": [
+      "pass",
+      "controllo"
+    ],
+    "prerequisiti": [
+      "classic-pass"
+    ],
+    "descrizione": "Eseguire il pass nascosto durante o chiudendo un nastro.",
+    "search_query": "spread pass tutorial card magic"
+  },
+  {
+    "id": "turnover-pass",
+    "titolo": "Turnover Pass",
+    "categoria": "tecnica",
+    "livello": 3,
+    "tags": [
+      "pass",
+      "reversal"
+    ],
+    "prerequisiti": [
+      "classic-pass"
+    ],
+    "descrizione": "Un pass che inverte segretamente l'ordine mentre il mazzo viene girato faccia in su.",
+    "search_query": "turnover pass tutorial card magic"
+  },
+  {
+    "id": "clip-shift",
+    "titolo": "Clip Shift",
+    "categoria": "tecnica",
+    "livello": 3,
+    "tags": [
+      "cambio",
+      "visivo"
+    ],
+    "prerequisiti": [
+      "double-lift"
+    ],
+    "descrizione": "Color change e steal a una mano ipervisivo inventato da Chad Nelson.",
+    "search_query": "clip shift chad nelson tutorial"
+  },
+  {
+    "id": "ernest-earick-pass",
+    "titolo": "Earick Longitudinal Swivel",
+    "categoria": "tecnica",
+    "livello": 3,
+    "tags": [
+      "pass",
+      "avanzato"
+    ],
+    "prerequisiti": [
+      "classic-pass"
+    ],
+    "descrizione": "Tecniche di Ernest Earick.",
+    "search_query": "earick pass card magic tutorial"
+  },
+  {
+    "id": "cull-force",
+    "titolo": "Cull Force",
+    "categoria": "tecnica",
+    "livello": 2,
+    "tags": [
+      "forzatura",
+      "cull"
+    ],
+    "prerequisiti": [
+      "cull"
+    ],
+    "descrizione": "Forzare fluidamente una carta passandola sotto il ventaglio.",
+    "search_query": "cull force card magic tutorial"
+  },
+  {
+    "id": "bottom-deal-advanced",
+    "titolo": "Bottom Deal Avanzato",
+    "categoria": "tecnica",
+    "livello": 3,
+    "tags": [
+      "deal",
+      "avanzato"
+    ],
+    "prerequisiti": [
+      "bottom-deal"
+    ],
+    "descrizione": "Suggerimenti di Erdnase e altri grandi maestri per il deal dal fondo.",
+    "search_query": "erickase bottom deal tutorial"
+  },
+  {
+    "id": "bullet-spin",
+    "titolo": "Bullet Spin",
+    "categoria": "cardistry",
+    "livello": 2,
+    "tags": [
+      "twirl",
+      "una mano"
+    ],
+    "prerequisiti": [
+      "bullet"
+    ],
+    "descrizione": "Rotazione estrema di una carta singola.",
+    "search_query": "bullet spin cardistry tutorial"
+  },
+  {
+    "id": "friffle",
+    "titolo": "Friffle",
+    "categoria": "cardistry",
+    "livello": 2,
+    "tags": [
+      "cascata",
+      "due mani"
+    ],
+    "prerequisiti": [
+      "spring"
+    ],
+    "descrizione": "Cascata visiva e veloce.",
+    "search_query": "friffle cardistry tutorial"
+  },
+  {
+    "id": "cascade",
+    "titolo": "Cascade",
+    "categoria": "cardistry",
+    "livello": 2,
+    "tags": [
+      "cascata",
+      "faro"
+    ],
+    "prerequisiti": [
+      "faro-cascade"
+    ],
+    "descrizione": "Esecuzione pulitissima di una cascata.",
+    "search_query": "cascade cardistry tutorial"
+  },
+  {
+    "id": "v-cut",
+    "titolo": "V Cut",
+    "categoria": "cardistry",
+    "livello": 2,
+    "tags": [
+      "taglio",
+      "multi-packet"
+    ],
+    "prerequisiti": [
+      "charlier-cut"
+    ],
+    "descrizione": "Apertura a V del mazzo.",
+    "search_query": "v cut cardistry tutorial"
+  },
+  {
+    "id": "squid-cut",
+    "titolo": "Squid Cut",
+    "categoria": "cardistry",
+    "livello": 2,
+    "tags": [
+      "taglio"
+    ],
+    "prerequisiti": [
+      "charlier-cut"
+    ],
+    "descrizione": "Fioritura asimmetrica.",
+    "search_query": "squid cut cardistry"
+  },
+  {
+    "id": "mockingbird",
+    "titolo": "Mockingbird",
+    "categoria": "cardistry",
+    "livello": 3,
+    "tags": [
+      "taglio",
+      "avanzato"
+    ],
+    "prerequisiti": [
+      "sybil-cut"
+    ],
+    "descrizione": "Taglio esplosivo multi-packet.",
+    "search_query": "mockingbird cardistry tutorial"
+  },
+  {
+    "id": "plinko",
+    "titolo": "Plinko",
+    "categoria": "cardistry",
+    "livello": 3,
+    "tags": [
+      "cascata",
+      "avanzato"
+    ],
+    "prerequisiti": [
+      "spring"
+    ],
+    "descrizione": "Far cadere le carte come nel famoso gioco.",
+    "search_query": "plinko cardistry tutorial"
+  },
+  {
+    "id": "l-cut",
+    "titolo": "L Cut",
+    "categoria": "cardistry",
+    "livello": 2,
+    "tags": [
+      "taglio",
+      "una mano"
+    ],
+    "prerequisiti": [
+      "charlier-cut"
+    ],
+    "descrizione": "Taglio a una mano stiloso reso famoso da Jerry Cestkowski.",
+    "search_query": "l cut cardistry tutorial jerry cestkowski"
+  }
+]

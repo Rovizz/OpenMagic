@@ -1,0 +1,74 @@
+[
+  {
+    "termine": "Break",
+    "slug": "break",
+    "definizione": "Piccolo spazio tra due carte, tenuto invisibilmente con mignolo o pollice, per segnare una posizione nel mazzo.",
+    "collegamenti": ["pinky-break", "thumb-break"]
+  },
+  {
+    "termine": "Controllo",
+    "slug": "controllo",
+    "definizione": "Qualsiasi tecnica che sposta segretamente una carta (o più carte) dove serve nel mazzo.",
+    "collegamenti": ["double-undercut", "classic-pass", "hindu-shuffle"]
+  },
+  {
+    "termine": "Force (Forzatura)",
+    "slug": "force",
+    "definizione": "Far credere a uno spettatore di aver scelto liberamente una carta quando in realtà è stata imposta dal mago.",
+    "collegamenti": ["riffle-force", "cross-cut-force"]
+  },
+  {
+    "termine": "False Shuffle",
+    "slug": "false-shuffle",
+    "definizione": "Mescolamento che sembra mescolare ma mantiene (tutto o parte) l'ordine delle carte.",
+    "collegamenti": ["overhand-shuffle", "hindu-shuffle", "zarrow-shuffle"]
+  },
+  {
+    "termine": "Sleight of Hand",
+    "slug": "sleight",
+    "definizione": "Abilità manuali segrete del mago. In italiano: abilità di mano o diteggiatura.",
+    "collegamenti": ["double-lift", "classic-pass"]
+  },
+  {
+    "termine": "Palming",
+    "slug": "palming",
+    "definizione": "Nascondere una carta nel palmo mentre il pubblico crede che sia sparita o non ci sia.",
+    "collegamenti": ["classic-palm", "tenkai-palm", "gamblers-cop"]
+  },
+  {
+    "termine": "Double Lift",
+    "slug": "double-lift-term",
+    "definizione": "Sollevare due carte come una. La sleight più importante della cartomagia moderna.",
+    "collegamenti": ["double-lift"]
+  },
+  {
+    "termine": "Pass",
+    "slug": "pass",
+    "definizione": "Scambio segreto delle due metà del mazzo. Considerato la sleight più difficile e potente.",
+    "collegamenti": ["classic-pass", "hermann-pass", "jiggle-pass"]
+  },
+  {
+    "termine": "Cardistry",
+    "slug": "cardistry",
+    "definizione": "Arte visiva del manipolare le carte senza effetti magici: tagli, flourishes, display.",
+    "collegamenti": ["charlier-cut", "sybil-cut", "spring"]
+  },
+  {
+    "termine": "Impromptu",
+    "slug": "impromptu",
+    "definizione": "Trucco eseguibile con qualsiasi mazzo normale, senza preparazione speciale.",
+    "collegamenti": ["key-card", "triumph"]
+  },
+  {
+    "termine": "Self-Working",
+    "slug": "self-working",
+    "definizione": "Trucco che funziona da solo (matematica, principi) con poca o nessuna abilità manuale.",
+    "collegamenti": ["21-cards", "do-as-i-do"]
+  },
+  {
+    "termine": "ACAAN",
+    "slug": "acaan-term",
+    "definizione": "Any Card At Any Number: carta libera + numero libero = quella carta esattamente a quella posizione.",
+    "collegamenti": ["acaan"]
+  }
+]

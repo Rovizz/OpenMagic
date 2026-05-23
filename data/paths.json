@@ -1,0 +1,76 @@
+[
+  {
+    "id": "da-zero",
+    "titolo": "Da Zero a Mago",
+    "descrizione": "Il percorso ufficiale OpenMagic: maneggiamento, controlli base e i primi effetti da mostrare agli amici. Nessun corso a pagamento necessario.",
+    "icona": "🎴",
+    "durata_stima": "4-8 settimane",
+    "steps": [
+      "mechanics-grip",
+      "biddle-grip",
+      "overhand-shuffle",
+      "riffle-shuffle",
+      "thumb-fan",
+      "pinky-break",
+      "double-undercut",
+      "double-lift",
+      "key-card",
+      "21-cards",
+      "ambitious-card"
+    ]
+  },
+  {
+    "id": "sleight-master",
+    "titolo": "Maestro delle Tecniche",
+    "descrizione": "Per chi vuole la cartomagia “da vero mago”: pass, palming, false shuffle e controlli invisibili.",
+    "icona": "🃏",
+    "durata_stima": "6-12 mesi",
+    "steps": [
+      "mechanics-grip",
+      "pinky-break",
+      "double-lift",
+      "double-undercut",
+      "riffle-force",
+      "classic-pass",
+      "classic-palm",
+      "faro-shuffle",
+      "elmsley-count",
+      "top-change"
+    ]
+  },
+  {
+    "id": "spettacolo",
+    "titolo": "Routine da Spettacolo",
+    "descrizione": "Effetti che fanno urlare il pubblico — triumph, ambitious, ACAAN e altri miracoli strutturati.",
+    "icona": "✨",
+    "durata_stima": "3-6 mesi",
+    "steps": [
+      "double-lift",
+      "hindu-shuffle",
+      "ambitious-card",
+      "triumph",
+      "chicago-surprise",
+      "two-card-monte",
+      "out-of-this-world",
+      "acaan"
+    ]
+  },
+  {
+    "id": "cardistry",
+    "titolo": "Artista del Cardistry",
+    "descrizione": "Dalla Charlier cut al Sybil: acrobazie visive senza effetti magici, solo pura estetica.",
+    "icona": "🌀",
+    "durata_stima": "2-6 mesi",
+    "steps": [
+      "straddle-grip",
+      "charlier-cut",
+      "revolution-cut",
+      "spring",
+      "swivel-cut",
+      "sybil-cut",
+      "werm",
+      "faro-cascade",
+      "anaconda"
+    ]
+  }
+]

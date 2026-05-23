@@ -1,0 +1,1469 @@
+[
+  {
+    "id": "mechanics-grip",
+    "titolo": "Mechanic's Grip (Dealer's Grip)",
+    "categoria": "tecnica",
+    "livello": 1,
+    "tags": [
+      "prese",
+      "base",
+      "maneggiamento"
+    ],
+    "youtube_id": "AGDn-c95-o4",
+    "canale": "52Kards",
+    "descrizione": "La presa fondamentale per tenere il mazzo: base per spread, dealing, break e quasi tutta la cartomagia.",
+    "prerequisiti": []
+  },
+  {
+    "id": "biddle-grip",
+    "titolo": "Biddle Grip",
+    "categoria": "tecnica",
+    "livello": 1,
+    "tags": [
+      "prese",
+      "base"
+    ],
+    "youtube_id": "AGDn-c95-o4",
+    "canale": "52Kards",
+    "descrizione": "Presa dall'alto per controllare il mazzo con la mano dominante. Spesso usata dopo la mechanic's grip.",
+    "prerequisiti": [
+      "mechanics-grip"
+    ]
+  },
+  {
+    "id": "straddle-grip",
+    "titolo": "Straddle Grip",
+    "categoria": "tecnica",
+    "livello": 1,
+    "tags": [
+      "prese",
+      "cardistry"
+    ],
+    "youtube_id": "bt0RumRuwGQ",
+    "canale": "School of Cardistry",
+    "descrizione": "Presa essenziale per tagli a una mano e cardistry. Le dita reggono il mazzo lateralmente.",
+    "prerequisiti": [
+      "mechanics-grip"
+    ]
+  },
+  {
+    "id": "dealing-position",
+    "titolo": "Dealing Position (Distribuzione)",
+    "categoria": "tecnica",
+    "livello": 1,
+    "tags": [
+      "dealing",
+      "base"
+    ],
+    "youtube_id": "Q5YGiLSf5Qw",
+    "canale": "52Kards",
+    "descrizione": "Come distribuire le carte in modo pulito e professionale, una alla volta.",
+    "prerequisiti": [
+      "mechanics-grip"
+    ]
+  },
+  {
+    "id": "swing-cut",
+    "titolo": "Swing Cut (Taglio a perno)",
+    "categoria": "tecnica",
+    "livello": 1,
+    "tags": [
+      "tagli",
+      "controllo"
+    ],
+    "youtube_id": "87wlYE-LAJg",
+    "canale": "52Kards",
+    "descrizione": "Taglio elegante che ruota metà mazzo. Base per molte sequenze di tagli falsi.",
+    "prerequisiti": [
+      "mechanics-grip",
+      "biddle-grip"
+    ]
+  },
+  {
+    "id": "swivel-cut",
+    "titolo": "Swivel Cut",
+    "categoria": "tecnica",
+    "livello": 1,
+    "tags": [
+      "tagli",
+      "flourish"
+    ],
+    "youtube_id": "irLVyuI0z8c",
+    "canale": "52Kards",
+    "descrizione": "Taglio rotante che completa un taglio del mazzo in modo fluido e visivo.",
+    "prerequisiti": [
+      "swing-cut"
+    ]
+  },
+  {
+    "id": "overhand-shuffle",
+    "titolo": "Overhand Shuffle (nel cavo della mano)",
+    "categoria": "tecnica",
+    "livello": 1,
+    "tags": [
+      "miscugli",
+      "false shuffle"
+    ],
+    "youtube_id": "A0J_487VquE",
+    "canale": "52Kards",
+    "descrizione": "Miscuglio overhand: familiare al pubblico e utile per controlli e false shuffle.",
+    "prerequisiti": [
+      "mechanics-grip"
+    ]
+  },
+  {
+    "id": "hindu-shuffle",
+    "titolo": "Hindu Shuffle",
+    "categoria": "tecnica",
+    "livello": 1,
+    "tags": [
+      "miscugli",
+      "controllo"
+    ],
+    "youtube_id": "ylifviUQHrI",
+    "canale": "52Kards",
+    "descrizione": "Miscuglio asiatico classico. Ottimo per controlli e false shuffle parziali.",
+    "prerequisiti": [
+      "mechanics-grip"
+    ]
+  },
+  {
+    "id": "riffle-shuffle",
+    "titolo": "Riffle Shuffle sul tavolo",
+    "categoria": "tecnica",
+    "livello": 1,
+    "tags": [
+      "miscugli",
+      "tavolo"
+    ],
+    "youtube_id": "o-KBNdbJOGk",
+    "canale": "52Kards",
+    "descrizione": "Riffle shuffle da tavolo: lo shuffle standard nei giochi e base per faro e false shuffle.",
+    "prerequisiti": [
+      "mechanics-grip"
+    ]
+  },
+  {
+    "id": "thumb-fan",
+    "titolo": "Thumb Fan (Ventaglio base)",
+    "categoria": "tecnica",
+    "livello": 1,
+    "tags": [
+      "display",
+      "flourish"
+    ],
+    "youtube_id": "SNTgoVH3vZs",
+    "canale": "52Kards",
+    "descrizione": "Ventaglio con il pollice per mostrare le carte. Include chiusura a una mano.",
+    "prerequisiti": [
+      "mechanics-grip"
+    ]
+  },
+  {
+    "id": "ribbon-spread",
+    "titolo": "Ribbon Spread (Nastro sul tavolo)",
+    "categoria": "tecnica",
+    "livello": 1,
+    "tags": [
+      "display",
+      "tavolo"
+    ],
+    "youtube_id": "rugccAqYw3w",
+    "canale": "52Kards",
+    "descrizione": "Spread a nastro sul tavolo con flip finale. Ideale per selezione carta.",
+    "prerequisiti": [
+      "mechanics-grip"
+    ]
+  },
+  {
+    "id": "dribble",
+    "titolo": "Dribble",
+    "categoria": "tecnica",
+    "livello": 1,
+    "tags": [
+      "display",
+      "flourish"
+    ],
+    "youtube_id": "6VNSxtvYPl8",
+    "canale": "Lotus In Hand",
+    "descrizione": "Far cadere le carte a cascata tra le mani. Effetto visivo per presentazioni.",
+    "prerequisiti": [
+      "mechanics-grip"
+    ]
+  },
+  {
+    "id": "pinky-break",
+    "titolo": "Pinky Break (Segno col mignolo)",
+    "categoria": "tecnica",
+    "livello": 2,
+    "tags": [
+      "break",
+      "controllo"
+    ],
+    "youtube_id": "gIJB0iACRCY",
+    "canale": "52Kards",
+    "descrizione": "Tenere un segno invisibile con il mignolo per localizzare una carta nel mazzo.",
+    "prerequisiti": [
+      "mechanics-grip"
+    ]
+  },
+  {
+    "id": "thumb-break",
+    "titolo": "Thumb Break",
+    "categoria": "tecnica",
+    "livello": 2,
+    "tags": [
+      "break",
+      "controllo"
+    ],
+    "youtube_id": "z9N0RxqTCXE",
+    "canale": "The Card Trick Teacher",
+    "descrizione": "Break con il pollice: alternativa al pinky break, utile in diverse situazioni.",
+    "prerequisiti": [
+      "pinky-break"
+    ]
+  },
+  {
+    "id": "double-undercut",
+    "titolo": "Double Undercut (Doppio taglio)",
+    "categoria": "tecnica",
+    "livello": 2,
+    "tags": [
+      "controllo",
+      "tagli"
+    ],
+    "youtube_id": "ZmIWD97VHiY",
+    "canale": "52Kards",
+    "descrizione": "Controllo classico: due tagli per portare una carta selezionata in cima al mazzo.",
+    "prerequisiti": [
+      "pinky-break",
+      "swing-cut"
+    ]
+  },
+  {
+    "id": "tilt",
+    "titolo": "Tilt (Profondità fittizia)",
+    "categoria": "tecnica",
+    "livello": 2,
+    "tags": [
+      "controllo",
+      "illusione"
+    ],
+    "youtube_id": "PoIGtgtt7Rc",
+    "canale": "52Kards",
+    "descrizione": "Illusione di profondità di Marlo: la carta sembra entrare nel mazzo ma resta in cima.",
+    "prerequisiti": [
+      "pinky-break",
+      "double-undercut"
+    ]
+  },
+  {
+    "id": "double-lift",
+    "titolo": "Double Lift (La doppia presa)",
+    "categoria": "tecnica",
+    "livello": 2,
+    "tags": [
+      "cambio",
+      "controllo"
+    ],
+    "youtube_id": "Gjd4EDm3EWU",
+    "canale": "52Kards",
+    "descrizione": "Sollevare due carte come una sola. La mossa più usata nella cartomagia moderna.",
+    "prerequisiti": [
+      "pinky-break"
+    ]
+  },
+  {
+    "id": "cross-cut-force",
+    "titolo": "Cross Cut Force",
+    "categoria": "tecnica",
+    "livello": 2,
+    "tags": [
+      "forzatura"
+    ],
+    "youtube_id": "fc3f99uc_4c",
+    "canale": "52Kards",
+    "descrizione": "Forzatura con taglio incrociato e spread. Tecnica versatile per trucchi impromptu.",
+    "prerequisiti": [
+      "ribbon-spread",
+      "swing-cut"
+    ]
+  },
+  {
+    "id": "riffle-force",
+    "titolo": "Riffle Force",
+    "categoria": "tecnica",
+    "livello": 2,
+    "tags": [
+      "forzatura"
+    ],
+    "youtube_id": "b_tbkcOKtYY",
+    "canale": "Magic Orthodoxy",
+    "descrizione": "Forzatura durante il riffle: lo spettatore dice stop e prende la carta forzata.",
+    "prerequisiti": [
+      "riffle-shuffle",
+      "pinky-break"
+    ]
+  },
+  {
+    "id": "glide",
+    "titolo": "The Glide",
+    "categoria": "tecnica",
+    "livello": 2,
+    "tags": [
+      "cambio",
+      "switch"
+    ],
+    "youtube_id": "DBZaQoeXtN4",
+    "canale": "52Kards",
+    "descrizione": "Scorrimento segreto per scambiare la carta inferiore. Semplice e molto pratico.",
+    "prerequisiti": [
+      "mechanics-grip",
+      "dealing-position"
+    ]
+  },
+  {
+    "id": "classic-pass",
+    "titolo": "The Pass — Classic Pass",
+    "categoria": "tecnica",
+    "livello": 3,
+    "tags": [
+      "pass",
+      "controllo"
+    ],
+    "youtube_id": "8gfU7XXA_mw",
+    "canale": "52Kards",
+    "descrizione": "Il pass classico: scambio invisibile di due metà mazzo. Controllo, falso taglio, vanish.",
+    "prerequisiti": [
+      "pinky-break",
+      "double-undercut",
+      "swivel-cut"
+    ]
+  },
+  {
+    "id": "hermann-pass",
+    "titolo": "The Pass — Hermann Pass",
+    "categoria": "tecnica",
+    "livello": 3,
+    "tags": [
+      "pass",
+      "controllo"
+    ],
+    "youtube_id": "D3exMO62eW0",
+    "canale": "52Kards",
+    "descrizione": "Variante del pass con movimento opposto. Stesso obiettivo del classic pass.",
+    "prerequisiti": [
+      "classic-pass"
+    ]
+  },
+  {
+    "id": "jiggle-pass",
+    "titolo": "The Pass — Jiggle Pass",
+    "categoria": "tecnica",
+    "livello": 3,
+    "tags": [
+      "pass",
+      "controllo"
+    ],
+    "youtube_id": "mWM-mUbejSQ",
+    "canale": "Magic Orthodoxy",
+    "descrizione": "Pass con movimento di scuotimento come copertura. Alternativa al classic pass.",
+    "prerequisiti": [
+      "classic-pass"
+    ]
+  },
+  {
+    "id": "side-steal",
+    "titolo": "Side Steal",
+    "categoria": "tecnica",
+    "livello": 3,
+    "tags": [
+      "steal",
+      "controllo"
+    ],
+    "youtube_id": "42nlCu48SSc",
+    "canale": "Magic Orthodoxy",
+    "descrizione": "Rubare lateralmente una carta dal mazzo senza che si accorgano.",
+    "prerequisiti": [
+      "pinky-break",
+      "mechanics-grip"
+    ]
+  },
+  {
+    "id": "cull",
+    "titolo": "The Cull (Sfoltimento)",
+    "categoria": "tecnica",
+    "livello": 3,
+    "tags": [
+      "cull",
+      "setup"
+    ],
+    "youtube_id": "Sk-C_m-8r3k",
+    "canale": "52Kards",
+    "descrizione": "Sfoltire e raggruppare carte selezionate durante uno spread. Setup potente.",
+    "prerequisiti": [
+      "ribbon-spread",
+      "pinky-break"
+    ]
+  },
+  {
+    "id": "faro-shuffle",
+    "titolo": "Faro Shuffle (In e Out)",
+    "categoria": "tecnica",
+    "livello": 3,
+    "tags": [
+      "miscugli",
+      "faro"
+    ],
+    "youtube_id": "2TyA0CInQH4",
+    "canale": "52Kards",
+    "descrizione": "Weave perfetto carta per carta. Base per stack, mescolanze matematiche e cardistry.",
+    "prerequisiti": [
+      "riffle-shuffle"
+    ]
+  },
+  {
+    "id": "zarrow-shuffle",
+    "titolo": "Zarrow Shuffle",
+    "categoria": "tecnica",
+    "livello": 3,
+    "tags": [
+      "false shuffle",
+      "avanzato"
+    ],
+    "youtube_id": "XK70Hb2RGVE",
+    "canale": "Magic Orthodoxy",
+    "descrizione": "Falso riffle shuffle che mantiene l'ordine delle carte. Richiede faro solido.",
+    "prerequisiti": [
+      "faro-shuffle",
+      "riffle-shuffle"
+    ]
+  },
+  {
+    "id": "elmsley-count",
+    "titolo": "Elmsley Count",
+    "categoria": "tecnica",
+    "livello": 3,
+    "tags": [
+      "conteggio",
+      "false count"
+    ],
+    "youtube_id": "Btz2gYnu3fc",
+    "canale": "52Kards",
+    "descrizione": "Il false count più usato: mostra 4 carte mentre ne nasconde una.",
+    "prerequisiti": [
+      "double-lift",
+      "pinky-break"
+    ]
+  },
+  {
+    "id": "jordan-count",
+    "titolo": "Jordan Count",
+    "categoria": "tecnica",
+    "livello": 3,
+    "tags": [
+      "conteggio",
+      "false count"
+    ],
+    "youtube_id": "hpPlLxr-TeE",
+    "canale": "Magic Orthodoxy",
+    "descrizione": "False count alternativo al Elmsley. Utile in routine con packet trick.",
+    "prerequisiti": [
+      "elmsley-count"
+    ]
+  },
+  {
+    "id": "pinky-count",
+    "titolo": "Pinky Count",
+    "categoria": "tecnica",
+    "livello": 3,
+    "tags": [
+      "conteggio",
+      "break"
+    ],
+    "youtube_id": "NPMifa5p4bU",
+    "canale": "52Kards",
+    "descrizione": "Contare carte con il mignolo per ottenere un break preciso. Setup per double lift.",
+    "prerequisiti": [
+      "pinky-break"
+    ]
+  },
+  {
+    "id": "classic-palm",
+    "titolo": "Classic Palm",
+    "categoria": "tecnica",
+    "livello": 3,
+    "tags": [
+      "palming"
+    ],
+    "youtube_id": "ndbwcdnM69o",
+    "canale": "52Kards",
+    "descrizione": "Palmo classico: nascondere una carta nel palmo della mano in modo naturale.",
+    "prerequisiti": [
+      "mechanics-grip"
+    ]
+  },
+  {
+    "id": "tenkai-palm",
+    "titolo": "Tenkai Palm",
+    "categoria": "tecnica",
+    "livello": 3,
+    "tags": [
+      "palming"
+    ],
+    "youtube_id": "2L0w1NwBO1g",
+    "canale": "Magic Orthodoxy",
+    "descrizione": "Palmo di Tenkai: carta visibile ma tenuta in modo ingannevole. Effetti teatrali.",
+    "prerequisiti": [
+      "classic-palm"
+    ]
+  },
+  {
+    "id": "gamblers-cop",
+    "titolo": "Gambler's Cop",
+    "categoria": "tecnica",
+    "livello": 3,
+    "tags": [
+      "palming",
+      "steal"
+    ],
+    "youtube_id": "kCMQvg4A6To",
+    "canale": "Magic Orthodoxy",
+    "descrizione": "Tecnica per nascondere carte sotto il mazzo o in posizione di cop.",
+    "prerequisiti": [
+      "classic-palm"
+    ]
+  },
+  {
+    "id": "top-change",
+    "titolo": "Top Change",
+    "categoria": "tecnica",
+    "livello": 3,
+    "tags": [
+      "cambio"
+    ],
+    "youtube_id": "aB_uD0x679g",
+    "canale": "52Kards",
+    "descrizione": "Cambiare la carta di cima con un'altra in modo impercettibile.",
+    "prerequisiti": [
+      "double-lift",
+      "pinky-break"
+    ]
+  },
+  {
+    "id": "second-deal",
+    "titolo": "Second Deal",
+    "categoria": "tecnica",
+    "livello": 3,
+    "tags": [
+      "deal",
+      "avanzato"
+    ],
+    "youtube_id": "wqzLQFjScTs",
+    "canale": "52Kards",
+    "descrizione": "Distribuire la seconda carta fingendo di dare la prima. Tecnica da gioco d'azzardo.",
+    "prerequisiti": [
+      "dealing-position",
+      "pinky-break"
+    ]
+  },
+  {
+    "id": "bottom-deal",
+    "titolo": "Bottom Deal",
+    "categoria": "tecnica",
+    "livello": 3,
+    "tags": [
+      "deal",
+      "avanzato"
+    ],
+    "youtube_id": "14V8qJc-W3I",
+    "canale": "52Kards",
+    "descrizione": "Distribuire la carta dal fondo del mazzo. Una delle mosse più difficili.",
+    "prerequisiti": [
+      "second-deal",
+      "mechanics-grip"
+    ]
+  },
+  {
+    "id": "slip-cut",
+    "titolo": "Slip Cut",
+    "categoria": "tecnica",
+    "livello": 1,
+    "tags": [
+      "tagli",
+      "controllo"
+    ],
+    "descrizione": "Un taglio rapido che mantiene in cima la prima carta del mazzo.",
+    "prerequisiti": [
+      "mechanics-grip"
+    ],
+    "youtube_id": "zghdPHjZIA4",
+    "canale": "52Kards"
+  },
+  {
+    "id": "false-cut-1",
+    "titolo": "False Cut Semplice",
+    "categoria": "tecnica",
+    "livello": 1,
+    "tags": [
+      "tagli",
+      "falso"
+    ],
+    "descrizione": "Un falso taglio da tavolo o in mano che inganna il pubblico mantenendo il mazzo intatto.",
+    "prerequisiti": [
+      "swing-cut"
+    ],
+    "youtube_id": "bDMQf3A5HsA",
+    "canale": "Jeremy Tan"
+  },
+  {
+    "id": "braid-cut",
+    "titolo": "Braid Cut",
+    "categoria": "tecnica",
+    "livello": 1,
+    "tags": [
+      "tagli",
+      "flourish"
+    ],
+    "descrizione": "Un taglio a tre mazzetti molto fluido ed elegante per arricchire una routine.",
+    "prerequisiti": [
+      "swing-cut"
+    ],
+    "youtube_id": "-LDTI5Nu1A0",
+    "canale": "School Of Cardistry"
+  },
+  {
+    "id": "charlier-shuffle",
+    "titolo": "Charlier Shuffle",
+    "categoria": "tecnica",
+    "livello": 1,
+    "tags": [
+      "miscugli",
+      "falso"
+    ],
+    "descrizione": "Un falso miscuglio in mano, dall'apparenza casuale, utilissimo per mantenere tutto il mazzo in ordine.",
+    "prerequisiti": [
+      "mechanics-grip"
+    ],
+    "youtube_id": "8TjgcwV3wAI",
+    "canale": "TCMagik"
+  },
+  {
+    "id": "stripper-deck-basics",
+    "titolo": "Mazzo Stripper (Basi)",
+    "categoria": "tecnica",
+    "livello": 1,
+    "tags": [
+      "gimmick",
+      "base"
+    ],
+    "descrizione": "Le basi per utilizzare il mazzo conico (stripper deck) e trovare le carte al tatto.",
+    "prerequisiti": [],
+    "youtube_id": "qeMULe2GVSM",
+    "canale": "Doug Conn"
+  },
+  {
+    "id": "invisible-deck-basics",
+    "titolo": "Invisible Deck (Basi)",
+    "categoria": "tecnica",
+    "livello": 1,
+    "tags": [
+      "gimmick",
+      "base"
+    ],
+    "descrizione": "Come gestire e memorizzare le logiche base del famoso mazzo invisibile.",
+    "prerequisiti": [],
+    "youtube_id": "cTBe6Jngho8",
+    "canale": "Chandler Henry"
+  },
+  {
+    "id": "svengali-basics",
+    "titolo": "Mazzo Svengali (Basi)",
+    "categoria": "tecnica",
+    "livello": 1,
+    "tags": [
+      "gimmick",
+      "base"
+    ],
+    "descrizione": "Le mosse base e la gestione delle carte corte nel classico mazzo Svengali.",
+    "prerequisiti": [],
+    "youtube_id": "b8rkmLYfVCw",
+    "canale": "AboutMagic"
+  },
+  {
+    "id": "key-card-placement",
+    "titolo": "Piazzamento Key Card",
+    "categoria": "tecnica",
+    "livello": 1,
+    "tags": [
+      "controllo",
+      "key-card"
+    ],
+    "descrizione": "Metodi più puliti e invisibili per posizionare e rintracciare la carta chiave.",
+    "prerequisiti": [
+      "key-card"
+    ],
+    "youtube_id": "L95IBGR0L9c",
+    "canale": "CardMagicByJason"
+  },
+  {
+    "id": "peek-bottom",
+    "titolo": "Bottom Peek",
+    "categoria": "tecnica",
+    "livello": 1,
+    "tags": [
+      "peek",
+      "controllo"
+    ],
+    "descrizione": "Come sbirciare segretamente la carta in fondo al mazzo.",
+    "prerequisiti": [
+      "mechanics-grip"
+    ],
+    "youtube_id": "_lqqt1RXs9w",
+    "canale": "52Kards"
+  },
+  {
+    "id": "peek-top",
+    "titolo": "Top Peek",
+    "categoria": "tecnica",
+    "livello": 1,
+    "tags": [
+      "peek",
+      "controllo"
+    ],
+    "descrizione": "Metodi per sbirciare in modo invisibile la carta in cima.",
+    "prerequisiti": [
+      "mechanics-grip"
+    ],
+    "youtube_id": "_lqqt1RXs9w",
+    "canale": "52Kards"
+  },
+  {
+    "id": "thumb-count",
+    "titolo": "Thumb Count",
+    "categoria": "tecnica",
+    "livello": 2,
+    "tags": [
+      "conteggio",
+      "break"
+    ],
+    "descrizione": "Contare le carte col pollice dal fondo o dalla cima per prendere un break.",
+    "prerequisiti": [
+      "thumb-break"
+    ],
+    "youtube_id": "pNvnc_Hfcys",
+    "canale": "MagicSecrets4U"
+  },
+  {
+    "id": "biddle-steal",
+    "titolo": "Biddle Steal",
+    "categoria": "tecnica",
+    "livello": 2,
+    "tags": [
+      "steal",
+      "controllo"
+    ],
+    "descrizione": "Rubare segretamente una o più carte mentre si passano le carte in biddle grip.",
+    "prerequisiti": [
+      "biddle-grip"
+    ],
+    "youtube_id": "cTPG1HsvQ2E",
+    "canale": "Alex Pandrea"
+  },
+  {
+    "id": "braue-reversal",
+    "titolo": "Braue Reversal",
+    "categoria": "tecnica",
+    "livello": 2,
+    "tags": [
+      "reversal",
+      "controllo"
+    ],
+    "descrizione": "Girare a faccia in su mezza metà mazzo in maniera nascosta, utilissimo per i sandwich e trionfi.",
+    "prerequisiti": [
+      "pinky-break"
+    ],
+    "youtube_id": "HzHiQ16mbgA",
+    "canale": "CardMechanic"
+  },
+  {
+    "id": "half-pass",
+    "titolo": "Half Pass",
+    "categoria": "tecnica",
+    "livello": 2,
+    "tags": [
+      "pass",
+      "reversal"
+    ],
+    "descrizione": "Girare segretamente metà mazzo, fondamentale in molti effetti.",
+    "prerequisiti": [
+      "pinky-break"
+    ],
+    "youtube_id": "nv5rKzqo1hY",
+    "canale": "Alex Pandrea"
+  },
+  {
+    "id": "slip-force",
+    "titolo": "Slip Force",
+    "categoria": "tecnica",
+    "livello": 2,
+    "tags": [
+      "forzatura"
+    ],
+    "descrizione": "Forzare la carta in cima facendola scivolare nel mezzo durante un taglio.",
+    "prerequisiti": [
+      "slip-cut"
+    ],
+    "youtube_id": "f8K-GchIoeA",
+    "canale": "MLT Magic Tricks"
+  },
+  {
+    "id": "hindu-force",
+    "titolo": "Hindu Force",
+    "categoria": "tecnica",
+    "livello": 2,
+    "tags": [
+      "forzatura"
+    ],
+    "descrizione": "Forzare la carta sul fondo fermandosi al comando dello spettatore durante l'hindu shuffle.",
+    "prerequisiti": [
+      "hindu-shuffle"
+    ],
+    "youtube_id": "eg5OHLu8Nys",
+    "canale": "52Kards"
+  },
+  {
+    "id": "dribble-force",
+    "titolo": "Dribble Force",
+    "categoria": "tecnica",
+    "livello": 2,
+    "tags": [
+      "forzatura"
+    ],
+    "descrizione": "Forzatura fluida e apparentemente equa durante una caduta (dribble) di carte.",
+    "prerequisiti": [
+      "dribble"
+    ],
+    "youtube_id": "iRlE7mFqC1U",
+    "canale": "Card Perfect Magician"
+  },
+  {
+    "id": "spread-cull-force",
+    "titolo": "Spread Cull Force",
+    "categoria": "tecnica",
+    "livello": 2,
+    "tags": [
+      "forzatura"
+    ],
+    "descrizione": "Usare il cull per posizionare segretamente una carta sotto le dita per una forzatura perfetta.",
+    "prerequisiti": [
+      "cull"
+    ],
+    "youtube_id": "Sk-C_m-8r3k",
+    "canale": "52Kards"
+  },
+  {
+    "id": "classic-force",
+    "titolo": "Classic Force",
+    "categoria": "tecnica",
+    "livello": 3,
+    "tags": [
+      "forzatura",
+      "psicologia"
+    ],
+    "descrizione": "La forzatura psicologica più iconica, difficile ma devastante. Sembra una scelta al 100% libera.",
+    "prerequisiti": [
+      "ribbon-spread"
+    ],
+    "youtube_id": "sjILsOGLVUY",
+    "canale": "Alex Pandrea"
+  },
+  {
+    "id": "erickase-change",
+    "titolo": "Erickase Change",
+    "categoria": "tecnica",
+    "livello": 3,
+    "tags": [
+      "cambio",
+      "visivo"
+    ],
+    "descrizione": "Un cambio di colore estremamente visivo e ingannevole.",
+    "prerequisiti": [
+      "double-lift"
+    ],
+    "youtube_id": "8BBwuSWQSV4",
+    "canale": "Nicole Lashae Hall | CEO, Thrive In Design"
+  },
+  {
+    "id": "snap-change",
+    "titolo": "Snap Change",
+    "categoria": "tecnica",
+    "livello": 2,
+    "tags": [
+      "cambio",
+      "visivo"
+    ],
+    "descrizione": "Il cambio istantaneo di Ed Marlo, utilissimo per YouTube o TikTok.",
+    "prerequisiti": [
+      "double-lift"
+    ],
+    "youtube_id": "KS39-4pfex0",
+    "canale": "52Kards"
+  },
+  {
+    "id": "houdini-color-change",
+    "titolo": "Houdini Color Change",
+    "categoria": "tecnica",
+    "livello": 2,
+    "tags": [
+      "cambio",
+      "visivo"
+    ],
+    "descrizione": "Un cambio di colore sfregando il mazzo, noto anche come Erdnase Change.",
+    "prerequisiti": [
+      "mechanics-grip"
+    ],
+    "youtube_id": "CS_eRu5NBsI",
+    "canale": "Houdini 123"
+  },
+  {
+    "id": "twirl-change",
+    "titolo": "Twirl Change",
+    "categoria": "tecnica",
+    "livello": 2,
+    "tags": [
+      "cambio",
+      "visivo"
+    ],
+    "descrizione": "Cambio elegante effettuato facendo ruotare (twirl) la carta tra le dita.",
+    "prerequisiti": [
+      "double-lift"
+    ],
+    "youtube_id": "fR4BFlt-Wjs",
+    "canale": "Ellusionist"
+  },
+  {
+    "id": "shape-shifter",
+    "titolo": "Shape Shifter Change",
+    "categoria": "tecnica",
+    "livello": 2,
+    "tags": [
+      "cambio",
+      "visivo"
+    ],
+    "descrizione": "Piegare la carta leggermente e farla scattare per un cambio colore immediato.",
+    "prerequisiti": [
+      "double-lift"
+    ],
+    "youtube_id": "hlHZD3cKLaU",
+    "canale": "52Kards"
+  },
+  {
+    "id": "cardini-change",
+    "titolo": "Cardini Change",
+    "categoria": "tecnica",
+    "livello": 3,
+    "tags": [
+      "cambio",
+      "visivo"
+    ],
+    "descrizione": "Un cambio superbo in cui la carta sparisce o cambia, proiettata dal mazzo.",
+    "prerequisiti": [
+      "double-lift"
+    ],
+    "youtube_id": "MZZuaNv2wuI",
+    "canale": "A Million Card Tricks"
+  },
+  {
+    "id": "mexican-turnover",
+    "titolo": "Mexican Turnover",
+    "categoria": "tecnica",
+    "livello": 3,
+    "tags": [
+      "cambio",
+      "switch"
+    ],
+    "descrizione": "Scambiare due carte girandone una con l'altra sul tavolo.",
+    "prerequisiti": [
+      "double-lift"
+    ],
+    "youtube_id": "SA1Cv3sLb1A",
+    "canale": "52Kards"
+  },
+  {
+    "id": "km-move",
+    "titolo": "K.M. Move",
+    "categoria": "tecnica",
+    "livello": 3,
+    "tags": [
+      "switch",
+      "reversal"
+    ],
+    "descrizione": "Kardyro-Marlo move, utilissima per nascondere facce invertite durante le routine di packet tricks.",
+    "prerequisiti": [
+      "biddle-grip"
+    ],
+    "youtube_id": "-JP9IwEwNYo",
+    "canale": "52Kards"
+  },
+  {
+    "id": "asperse-change",
+    "titolo": "Asperse Change",
+    "categoria": "tecnica",
+    "livello": 3,
+    "tags": [
+      "cambio",
+      "visivo"
+    ],
+    "descrizione": "Cambio visivo simile allo snap change, molto pulito.",
+    "prerequisiti": [
+      "mechanics-grip"
+    ],
+    "youtube_id": "gIwvLuNzliI",
+    "canale": "TITANS of CNC MACHINING"
+  },
+  {
+    "id": "bottom-palm",
+    "titolo": "Bottom Palm",
+    "categoria": "tecnica",
+    "livello": 3,
+    "tags": [
+      "palming"
+    ],
+    "descrizione": "Impalmare la carta in fondo al mazzo con la mano sinistra o destra.",
+    "prerequisiti": [
+      "mechanics-grip"
+    ],
+    "youtube_id": "lAo3pORqVZI",
+    "canale": "James Pena"
+  },
+  {
+    "id": "diagonal-palm-shift",
+    "titolo": "Diagonal Palm Shift",
+    "categoria": "tecnica",
+    "livello": 3,
+    "tags": [
+      "palming",
+      "steal"
+    ],
+    "descrizione": "DPS (Erdnase), rubare la carta direttamente in posizione di palm mentre viene inserita nel mazzo.",
+    "prerequisiti": [
+      "pinky-break"
+    ],
+    "youtube_id": "1gTAhbN69lU",
+    "canale": "Chris Ramsay"
+  },
+  {
+    "id": "top-palm-multiple",
+    "titolo": "Multiple Top Palm",
+    "categoria": "tecnica",
+    "livello": 3,
+    "tags": [
+      "palming"
+    ],
+    "descrizione": "Impalmare simultaneamente diverse carte dalla cima.",
+    "prerequisiti": [
+      "classic-palm"
+    ],
+    "youtube_id": "6JaDQLe1-fk",
+    "canale": "52Kards"
+  },
+  {
+    "id": "one-hand-top-palm",
+    "titolo": "One Hand Top Palm",
+    "categoria": "tecnica",
+    "livello": 3,
+    "tags": [
+      "palming"
+    ],
+    "descrizione": "Un'impamaggio a una mano sola, rapidissimo e invisibile se coperto dal movimento del corpo.",
+    "prerequisiti": [
+      "classic-palm"
+    ],
+    "youtube_id": "6JaDQLe1-fk",
+    "canale": "52Kards"
+  },
+  {
+    "id": "center-deal",
+    "titolo": "Center Deal",
+    "categoria": "tecnica",
+    "livello": 3,
+    "tags": [
+      "deal",
+      "avanzato"
+    ],
+    "descrizione": "Distribuire carte direttamente dal centro del mazzo (livello super avanzato).",
+    "prerequisiti": [
+      "dealing-position"
+    ],
+    "youtube_id": "FkFx3gU5i6g",
+    "canale": "Daniel Roy"
+  },
+  {
+    "id": "greek-deal",
+    "titolo": "Greek Deal",
+    "categoria": "tecnica",
+    "livello": 3,
+    "tags": [
+      "deal",
+      "avanzato"
+    ],
+    "descrizione": "Simile al bottom deal ma prendendo la penultima carta.",
+    "prerequisiti": [
+      "bottom-deal"
+    ],
+    "youtube_id": "sjcQSAHf8Mw",
+    "canale": "Chabo Magic"
+  },
+  {
+    "id": "pushoff-double",
+    "titolo": "Push-Off Double Lift",
+    "categoria": "tecnica",
+    "livello": 3,
+    "tags": [
+      "cambio",
+      "avanzato"
+    ],
+    "descrizione": "Un double lift eseguito senza break preventivo, spingendo due carte come una sola.",
+    "prerequisiti": [
+      "double-lift"
+    ],
+    "youtube_id": "1SVArNzR4Uw",
+    "canale": "Alex Pandrea"
+  },
+  {
+    "id": "strike-double",
+    "titolo": "Strike Double Lift",
+    "categoria": "tecnica",
+    "livello": 2,
+    "tags": [
+      "cambio",
+      "avanzato"
+    ],
+    "descrizione": "Altra variante di double lift, si sente lo scalino con le dita. Ottimo da mazzo poggiato.",
+    "prerequisiti": [
+      "double-lift"
+    ],
+    "youtube_id": "Gjd4EDm3EWU",
+    "canale": "52Kards"
+  },
+  {
+    "id": "stuard-gordon-double",
+    "titolo": "Stuart Gordon Double",
+    "categoria": "tecnica",
+    "livello": 3,
+    "tags": [
+      "cambio",
+      "avanzato"
+    ],
+    "descrizione": "Un turnover elegantissimo e floreale che nasconde perfettamente il fatto che le carte siano due.",
+    "prerequisiti": [
+      "double-lift"
+    ],
+    "youtube_id": "7Czw7gm3Ek4",
+    "canale": "TheRussianGenius"
+  },
+  {
+    "id": "vernon-addition",
+    "titolo": "Vernon Addition",
+    "categoria": "tecnica",
+    "livello": 3,
+    "tags": [
+      "switch",
+      "biddle"
+    ],
+    "descrizione": "Scambio elegante di un mazzetto mentre lo si appoggia al mazzo.",
+    "prerequisiti": [
+      "biddle-grip"
+    ],
+    "youtube_id": "Du6Oz_Z2iKE",
+    "canale": "Krookedhands"
+  },
+  {
+    "id": "atfus",
+    "titolo": "A.T.F.U.S.",
+    "categoria": "tecnica",
+    "livello": 3,
+    "tags": [
+      "switch",
+      "avanzato"
+    ],
+    "descrizione": "Any Time Face Up Switch, tecnica avanzata per scambiare carte in packet tricks.",
+    "prerequisiti": [
+      "biddle-grip"
+    ],
+    "youtube_id": "DEY8cp-0VWM",
+    "canale": "PigCake"
+  },
+  {
+    "id": "tent-vanish",
+    "titolo": "Tent Vanish",
+    "categoria": "tecnica",
+    "livello": 2,
+    "tags": [
+      "vanish",
+      "cambio"
+    ],
+    "descrizione": "Una carta viene coperta momentaneamente \"a tenda\" e sparisce nel nulla.",
+    "prerequisiti": [
+      "mechanics-grip"
+    ],
+    "youtube_id": "Xx8f4lhuyx0",
+    "canale": "Steven Warren"
+  },
+  {
+    "id": "rub-a-dub-vanish",
+    "titolo": "Rub-a-Dub Vanish",
+    "categoria": "tecnica",
+    "livello": 2,
+    "tags": [
+      "vanish"
+    ],
+    "descrizione": "Appoggiare la carta sul tavolo o tappetino sfregandola, facendola svanire.",
+    "prerequisiti": [
+      "mechanics-grip"
+    ],
+    "youtube_id": "5HfRhctpXO8",
+    "canale": "Xavior Spade"
+  },
+  {
+    "id": "false-riffle-triumph",
+    "titolo": "False Riffle (Triumph)",
+    "categoria": "tecnica",
+    "livello": 3,
+    "tags": [
+      "miscugli",
+      "falso"
+    ],
+    "descrizione": "Il miscuglio falso da tavolo usato comunemente nella versione classica di Triumph.",
+    "prerequisiti": [
+      "riffle-shuffle"
+    ],
+    "youtube_id": "lmGNPl1sBIk",
+    "canale": "NoFirstRule"
+  },
+  {
+    "id": "faro-false-shuffle",
+    "titolo": "Faro False Shuffle",
+    "categoria": "tecnica",
+    "livello": 3,
+    "tags": [
+      "miscugli",
+      "falso"
+    ],
+    "descrizione": "Un falso miscuglio usando i principi del faro.",
+    "prerequisiti": [
+      "faro-shuffle"
+    ],
+    "youtube_id": "S8zokP7vFfM",
+    "canale": "FernandoP1 - Art Zone Productions"
+  },
+  {
+    "id": "rhythm-count",
+    "titolo": "Rhythm Count",
+    "categoria": "tecnica",
+    "livello": 3,
+    "tags": [
+      "conteggio",
+      "falso"
+    ],
+    "descrizione": "Un falso conteggio fluido per mostrare packet di 4 o 5 carte in vari stati.",
+    "prerequisiti": [
+      "elmsley-count"
+    ],
+    "youtube_id": "L95IBGR0L9c",
+    "canale": "CardMagicByJason"
+  },
+  {
+    "id": "gemini-count",
+    "titolo": "Gemini Count",
+    "categoria": "tecnica",
+    "livello": 3,
+    "tags": [
+      "conteggio",
+      "falso"
+    ],
+    "descrizione": "Variante avanzata per packet trick usata in effetti come B-Wave o Twisted Sisters.",
+    "prerequisiti": [
+      "elmsley-count"
+    ],
+    "youtube_id": "LyRYbreyW5A",
+    "canale": "K52 Official"
+  },
+  {
+    "id": "mercury-card-fold",
+    "titolo": "Mercury Card Fold",
+    "categoria": "tecnica",
+    "livello": 3,
+    "tags": [
+      "piegatura",
+      "street"
+    ],
+    "descrizione": "Piegare segretamente e in quarti una carta in una frazione di secondo.",
+    "prerequisiti": [
+      "pinky-break"
+    ],
+    "youtube_id": "u8xoR6KpQSI",
+    "canale": "Disturb Reality"
+  },
+  {
+    "id": "zarrow-shuffle-advanced",
+    "titolo": "Zarrow Shuffle Avanzato",
+    "categoria": "tecnica",
+    "livello": 3,
+    "tags": [
+      "miscugli",
+      "falso"
+    ],
+    "prerequisiti": [
+      "zarrow-shuffle"
+    ],
+    "descrizione": "Dettagli per rendere lo Zarrow invisibile anche da angolazioni strette.",
+    "youtube_id": "hUkUsuQ4GN4",
+    "canale": "Jack Carpenter"
+  },
+  {
+    "id": "anti-faro",
+    "titolo": "Anti-Faro",
+    "categoria": "tecnica",
+    "livello": 3,
+    "tags": [
+      "miscugli",
+      "falso"
+    ],
+    "prerequisiti": [
+      "faro-shuffle"
+    ],
+    "descrizione": "Il difficile procedimento di togliere le carte dispari dalle pari, inverso del faro.",
+    "youtube_id": "kYDW8GWYmhw",
+    "canale": "Nexusmagicshop"
+  },
+  {
+    "id": "perfect-faro",
+    "titolo": "Faro Perfetto",
+    "categoria": "tecnica",
+    "livello": 3,
+    "tags": [
+      "miscugli",
+      "faro"
+    ],
+    "prerequisiti": [
+      "faro-shuffle"
+    ],
+    "descrizione": "Dettagli e posizioni delle dita per non fallire mai un Faro in e out.",
+    "youtube_id": "2_tjqsplcYI",
+    "canale": "CardMechanic"
+  },
+  {
+    "id": "false-overhand",
+    "titolo": "False Overhand Shuffle",
+    "categoria": "tecnica",
+    "livello": 1,
+    "tags": [
+      "miscugli",
+      "falso"
+    ],
+    "prerequisiti": [
+      "overhand-shuffle"
+    ],
+    "descrizione": "Un overhand shuffle che trattiene il mazzo intero.",
+    "youtube_id": "WrDjHGsIzI4",
+    "canale": "CardMechanic"
+  },
+  {
+    "id": "false-riffle-tabled",
+    "titolo": "False Tabled Riffle",
+    "categoria": "tecnica",
+    "livello": 2,
+    "tags": [
+      "miscugli",
+      "falso"
+    ],
+    "prerequisiti": [
+      "riffle-shuffle"
+    ],
+    "descrizione": "Miscuglio al tavolo falso stile casino.",
+    "youtube_id": "U07Q88mXFag",
+    "canale": "Alex Pandrea"
+  },
+  {
+    "id": "spread-pass",
+    "titolo": "Spread Pass",
+    "categoria": "tecnica",
+    "livello": 3,
+    "tags": [
+      "pass",
+      "controllo"
+    ],
+    "prerequisiti": [
+      "classic-pass"
+    ],
+    "descrizione": "Eseguire il pass nascosto durante o chiudendo un nastro.",
+    "youtube_id": "-8IA1QbmWVI",
+    "canale": "Alex Pandrea"
+  },
+  {
+    "id": "turnover-pass",
+    "titolo": "Turnover Pass",
+    "categoria": "tecnica",
+    "livello": 3,
+    "tags": [
+      "pass",
+      "reversal"
+    ],
+    "prerequisiti": [
+      "classic-pass"
+    ],
+    "descrizione": "Un pass che inverte segretamente l'ordine mentre il mazzo viene girato faccia in su.",
+    "youtube_id": "EM27-uOjIsY",
+    "canale": "CardMechanic"
+  },
+  {
+    "id": "clip-shift",
+    "titolo": "Clip Shift",
+    "categoria": "tecnica",
+    "livello": 3,
+    "tags": [
+      "cambio",
+      "visivo"
+    ],
+    "prerequisiti": [
+      "double-lift"
+    ],
+    "descrizione": "Color change e steal a una mano ipervisivo inventato da Chad Nelson.",
+    "youtube_id": "qAQ3piOWPJI",
+    "canale": "Jason Maher"
+  },
+  {
+    "id": "ernest-earick-pass",
+    "titolo": "Earick Longitudinal Swivel",
+    "categoria": "tecnica",
+    "livello": 3,
+    "tags": [
+      "pass",
+      "avanzato"
+    ],
+    "prerequisiti": [
+      "classic-pass"
+    ],
+    "descrizione": "Tecniche di Ernest Earick.",
+    "youtube_id": "m8dCHhQkHTM",
+    "canale": "NoFirstRule"
+  },
+  {
+    "id": "cull-force",
+    "titolo": "Cull Force",
+    "categoria": "tecnica",
+    "livello": 2,
+    "tags": [
+      "forzatura",
+      "cull"
+    ],
+    "prerequisiti": [
+      "cull"
+    ],
+    "descrizione": "Forzare fluidamente una carta passandola sotto il ventaglio.",
+    "youtube_id": "LrOd9YxkBOc",
+    "canale": "Card Perfect Magician"
+  }
+]
