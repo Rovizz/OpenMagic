@@ -5,6 +5,7 @@ import { loadSearchIndex, searchItems } from './search.js';
 import { mountLayout } from './layout.js';
 import { PAGE_SIZE } from './config.js';
 import { i18n } from './i18n.js';
+import { translateStaticContent } from './translate-ui.js';
 
 const grid = document.getElementById('results-grid');
 const search = document.getElementById('search');
@@ -49,13 +50,14 @@ function renderPage(reset = true) {
   grid.innerHTML = slice.length
     ? slice.map(renderCard).join('')
     : `<p class="text-zinc-500 col-span-full text-center py-12">${i18n.t('encyclopedia.no-results')}</p>`;
-  countEl.textContent = `${filtered.length} ${i18n.getLang() === 'it' ? 'voci nell\'enciclopedia' : 'items in encyclopedia'}`;
+  countEl.textContent = `${filtered.length} ${i18n.t('browse.count')}`;
   if (loadMoreBtn) {
     loadMoreBtn.classList.toggle('hidden', visibleCount >= filtered.length);
   }
 }
 
 async function init() {
+  translateStaticContent();
   mountLayout('browse', { showSearch: false });
   allItems = await loadData();
   searchIndex = await loadSearchIndex();
@@ -63,7 +65,7 @@ async function init() {
 
   const stats = getProgressStats(allItems);
   document.getElementById('progress-text').textContent =
-    `${stats.done}/${stats.total} ${i18n.getLang() === 'it' ? 'completati' : 'completed'} (${stats.percent}%)`;
+    `${stats.done}/${stats.total} ${i18n.t('browse.completed')} (${stats.percent}%)`;
 
   const update = () => {
     const f = readFilters();

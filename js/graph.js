@@ -2,6 +2,7 @@ import { getById } from './data.js';
 import { lessonUrl } from './routing.js';
 import { escapeHtml } from './security.js';
 import { isLearned } from './storage.js';
+import { i18n } from './i18n.js';
 
 /** Voci che richiedono questa come prerequisito. */
 export function getDependents(items, itemId) {
@@ -64,7 +65,7 @@ export function renderRelatedList(items, idsOrItems, title) {
     .map((id) => {
       const p = getById(items, id);
       return p
-        ? `<li><a href="${lessonUrl(p.id)}" class="text-amber-400 hover:underline">${escapeHtml(p.titolo)}</a></li>`
+        ? `<li><a href="${lessonUrl(p.id)}" class="text-amber-400 hover:underline">${escapeHtml(i18n.t(`item.${p.id}.title`, p.titolo))}</a></li>`
         : '';
     })
     .filter(Boolean)

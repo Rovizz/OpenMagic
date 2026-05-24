@@ -4,10 +4,12 @@ import { lessonUrl } from './routing.js';
 import { escapeHtml } from './security.js';
 import { mountLayout } from './layout.js';
 import { i18n } from './i18n.js';
+import { translateStaticContent } from './translate-ui.js';
 
 const root = document.getElementById('paths-root');
 
 async function init() {
+  translateStaticContent();
   mountLayout('paths', { showSearch: true });
   const [paths, items] = await Promise.all([loadPaths(), loadData()]);
 
@@ -25,7 +27,7 @@ async function init() {
             return `
             <li class="flex items-center gap-3 py-2 border-b border-zinc-800/80 last:border-0">
               ${stepCircle}
-              <a href="${lessonUrl(id)}" class="flex-1 hover:text-amber-400 ${done ? 'text-zinc-500 line-through decoration-zinc-600' : 'text-zinc-200'}">${escapeHtml(item.titolo)}</a>
+              <a href="${lessonUrl(id)}" class="flex-1 hover:text-amber-400 ${done ? 'text-zinc-500 line-through decoration-zinc-600' : 'text-zinc-200'}">${escapeHtml(i18n.t(`item.${item.id}.title`, item.titolo))}</a>
               <span class="text-xs text-zinc-500 font-semibold bg-zinc-800 px-1.5 py-0.5 rounded border border-zinc-700/60">L${item.livello}</span>
             </li>`;
           })
@@ -39,11 +41,11 @@ async function init() {
           <div class="flex items-start gap-4 mb-4">
             <span class="text-4xl filter drop-shadow-md select-none">${path.icona || '📚'}</span>
             <div>
-              <h2 class="text-xl font-bold text-zinc-100 font-serif">${escapeHtml(path.titolo)}</h2>
-              <p class="text-sm text-zinc-500 mt-1">${escapeHtml(path.durata_stima || '')} · ${doneCount}/${path.steps.length} (${pct}%)</p>
+              <h2 class="text-xl font-bold text-zinc-100 font-serif">${escapeHtml(i18n.t(`path.${path.id}.title`, path.titolo))}</h2>
+              <p class="text-sm text-zinc-500 mt-1">${escapeHtml(i18n.t(`path.${path.id}.duration`, path.durata_stima || ''))} · ${doneCount}/${path.steps.length} (${pct}%)</p>
             </div>
           </div>
-          <p class="text-zinc-400 text-sm mb-4 leading-relaxed">${escapeHtml(path.descrizione)}</p>
+          <p class="text-zinc-400 text-sm mb-4 leading-relaxed">${escapeHtml(i18n.t(`path.${path.id}.description`, path.descrizione))}</p>
           <div class="h-2 bg-zinc-950 rounded-full mb-4 overflow-hidden border border-zinc-800">
             <div class="h-full bg-gradient-to-r from-amber-500 to-amber-400 transition-all duration-500 rounded-full" style="width:${pct}%"></div>
           </div>

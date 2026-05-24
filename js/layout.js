@@ -75,10 +75,10 @@ export function mountLayout(active = 'home', { showSearch = true } = {}) {
       <div class="max-w-7xl mx-auto px-6 py-12 grid md:grid-cols-3 gap-8 text-sm text-slate-500">
         <div>
           <p class="font-display font-bold text-slate-300 mb-3">${escapeHtml(SITE.name)}</p>
-          <p class="font-light">${i18n.t('footer.tagline')} ${i18n.getLang() === 'it' ? 'Gratuito, open knowledge, zero paywall.' : 'Free, open knowledge, zero paywall.'}</p>
+          <p class="font-light">${i18n.t('footer.tagline')} ${i18n.t('footer.free')}</p>
         </div>
         <div>
-          <p class="font-display font-bold text-slate-300 mb-3">${i18n.getLang() === 'it' ? 'Impara' : 'Learn'}</p>
+          <p class="font-display font-bold text-slate-300 mb-3">${i18n.t('footer.learn')}</p>
           <ul class="space-y-2 font-light">
             <li><a href="percorsi.html" class="hover:text-blue-400 transition-colors">${i18n.t('nav.paths')}</a></li>
             <li><a href="browse.html" class="hover:text-blue-400 transition-colors">${i18n.t('nav.browse')}</a></li>
@@ -87,10 +87,10 @@ export function mountLayout(active = 'home', { showSearch = true } = {}) {
         </div>
         <div>
           <p class="font-display font-bold text-slate-300 mb-3">Privacy</p>
-          <p class="font-light">${i18n.getLang() === 'it' ? 'Progressi solo nel tuo browser. Nessun account. Video tramite YouTube embed.' : 'Progress stored only in your browser. No account needed. Videos via YouTube embed.'}</p>
+          <p class="font-light">${i18n.t('footer.privacy-text')}</p>
         </div>
       </div>
-      <p class="text-center text-xs text-slate-600 pb-8">© OpenMagic — ${i18n.getLang() === 'it' ? 'I video appartengono ai rispettivi creator.' : 'Videos belong to their respective creators.'}</p>`;
+      <p class="text-center text-xs text-slate-600 pb-8">© OpenMagic — ${i18n.t('footer.copyright')}</p>`;
   }
 
   const gs = document.getElementById('global-search');

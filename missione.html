@@ -38,37 +38,39 @@
 <body class="bg-[#050505] text-slate-100 min-h-screen antialiased font-sans">
   <header id="site-header" class="border-b border-zinc-800/80 bg-[#050505]/90 backdrop-blur sticky top-0 z-50"></header>
   <main class="max-w-3xl mx-auto px-4 py-10 prose prose-invert prose-amber">
-    <h1 class="text-3xl font-bold text-zinc-50 not-prose font-display">La missione OpenMagic</h1>
+    <h1 class="text-3xl font-bold text-zinc-50 not-prose font-display" data-i18n="mission.title">La missione OpenMagic</h1>
 
     <section class="mt-8 space-y-4 text-zinc-300 text-sm leading-relaxed">
-      <h2 class="text-lg font-semibold text-blue-500">Meglio di un corso a pagamento</h2>
-      <p>I creator vendono percorsi chiusi. Noi colleghiamo i migliori tutorial gratuiti su YouTube in ordine logico, con prerequisiti, wiki e progressi — senza chiederti la carta di credito.</p>
+      <h2 class="text-lg font-semibold text-blue-500" data-i18n="mission.better-than-course.title">Meglio di un corso a pagamento</h2>
+      <p data-i18n="mission.better-than-course.text">I creator vendono percorsi chiusi. Noi colleghiamo i migliori tutorial gratuiti su YouTube in ordine logico, con prerequisiti, wiki e progressi — senza chiederti la carta di credito.</p>
 
-      <h2 class="text-lg font-semibold text-blue-500 mt-8">Meglio di Wikipedia</h2>
-      <p>Wikipedia spiega i concetti ma non ti insegna a eseguirli. OpenMagic unisce enciclopedia + video + percorso pratico + “cosa imparare prima”.</p>
+      <h2 class="text-lg font-semibold text-blue-500 mt-8" data-i18n="mission.better-than-wiki.title">Meglio di Wikipedia</h2>
+      <p data-i18n="mission.better-than-wiki.text">Wikipedia spiega i concetti ma non ti insegna a eseguirli. OpenMagic unisce enciclopedia + video + percorso pratico + “cosa imparare prima”.</p>
 
-      <h2 class="text-lg font-semibold text-blue-500 mt-8">Scalabilità Globale</h2>
+      <h2 class="text-lg font-semibold text-blue-500 mt-8" data-i18n="mission.scalability.title">Scalabilità Globale</h2>
       <ul class="list-disc list-inside space-y-1 text-slate-400">
-        <li>Architettura serverless distribuita su edge network globale.</li>
-        <li>Tempi di risposta inferiori a 50ms ovunque nel mondo.</li>
-        <li>Indicizzazione automatica dei contenuti con algoritmi proprietari.</li>
+        <li data-i18n="mission.scalability.item1">Architettura serverless distribuita su edge network globale.</li>
+        <li data-i18n="mission.scalability.item2">Tempi di risposta inferiori a 50ms ovunque nel mondo.</li>
+        <li data-i18n="mission.scalability.item3">Indicizzazione automatica dei contenuti con algoritmi proprietari.</li>
       </ul>
 
-      <h2 class="text-lg font-semibold text-blue-500 mt-8">Sicurezza & Privacy di Livello Enterprise</h2>
+      <h2 class="text-lg font-semibold text-blue-500 mt-8" data-i18n="mission.security.title">Sicurezza & Privacy di Livello Enterprise</h2>
       <ul class="list-disc list-inside space-y-1 text-slate-400">
-        <li>Nessuna raccolta dati: privacy assoluta by-design.</li>
-        <li>Protezione DDoS e Content Security Policy (CSP) restrittiva.</li>
-        <li>Sanitizzazione avanzata contro attacchi XSS e CSRF.</li>
-        <li>Sistemi di anti-tampering e offuscamento dell'architettura client-side.</li>
+        <li data-i18n="mission.security.item1">Nessuna raccolta dati: privacy assoluta by-design.</li>
+        <li data-i18n="mission.security.item2">Protezione DDoS e Content Security Policy (CSP) restrittiva.</li>
+        <li data-i18n="mission.security.item3">Sanitizzazione avanzata contro attacchi XSS e CSRF.</li>
+        <li data-i18n="mission.security.item4">Sistemi di anti-tampering e offuscamento dell'architettura client-side.</li>
       </ul>
 
-      <h2 class="text-lg font-semibold text-blue-500 mt-8">Vuoi Contribuire?</h2>
-      <p>La piattaforma è chiusa a modifiche esterne dirette per garantire la massima integrità e sicurezza. Se sei un creatore di contenuti, contattaci attraverso i canali ufficiali.</p>
+      <h2 class="text-lg font-semibold text-blue-500 mt-8" data-i18n="mission.contribute.title">Vuoi Contribuire?</h2>
+      <p data-i18n="mission.contribute.text">La piattaforma è chiusa a modifiche esterne dirette per garantire la massima integrità e sicurezza. Se sei un creatore di contenuti, contattaci attraverso i canali ufficiali.</p>
     </section>
   </main>
   <footer id="site-footer" class="border-t border-zinc-800 mt-12"></footer>
   <script type="module">
     import { mountLayout } from './js/layout.js';
+    import { translateStaticContent } from './js/translate-ui.js';
+    translateStaticContent();
     mountLayout('mission', { showSearch: true });
   </script>
   <script type="module" src="js/interactions.js"></script>
