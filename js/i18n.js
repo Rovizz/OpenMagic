@@ -88,7 +88,7 @@ const translations = {
     
     // Dynamic content translations (wiki fields)
     'wiki.charlier-cut.cos_e': 'Il taglio a una mano più iconico. Prima mossa da cardist.',
-    'wiki.charlier-cut.perche': 'Charlier Cut è una movimento di cardistry di livello 1. Padroneggiarla sblocca voci successive nell'enciclopedia e decine di tutorial gratuiti online.',
+    'wiki.charlier-cut.perche': 'Charlier Cut è un movimento di cardistry di livello 1. Padroneggiarla sblocca voci successive nell\'enciclopedia e decine di tutorial gratuiti online.',
     'wiki.charlier-cut.come_praticare.0': 'Studia il video senza carte, poi con mazzo lento.',
     'wiki.charlier-cut.come_praticare.1': '10 ripetizioni pulite > 100 ripetizioni sloppate.',
     'wiki.charlier-cut.come_praticare.2': 'Collega la mossa a un effetto breve per motivazione.',
@@ -97,7 +97,20 @@ const translations = {
     'wiki.charlier-cut.errori_comuni.2': 'Non registrarsi: il video mente, lo specchio no.',
     'wiki.charlier-cut.tempo_stima': '2-5 giorni',
     
-    // Add more wiki translations as needed...
+    // Item title and description translations
+    'item.charlier-cut.title': 'Charlier Cut',
+    'item.charlier-cut.description': 'The most iconic one-handed cut. The first move for cardists.',
+    
+    'item.scissor-cut.title': 'Scissor Cut',
+    'item.scissor-cut.description': 'Two-handed scissor cut. Smooth transition between grips.',
+    
+    'item.revolution-cut.title': 'Revolution Cut',
+    'item.revolution-cut.description': 'One-handed rotating cut. More spectacular than the Charlier.',
+    
+    'item.spring.title': 'Spring (Cascade)',
+    'item.spring.description': 'Hand-to-hand tension cascade. The most recognizable flourish.',
+    
+    // Add more item translations as needed...
   },
   en: {
     // Header & Navigation

@@ -41,9 +41,9 @@ export function renderCard(item) {
         <span class="flex items-center gap-1.5">${learnedIcon}${wikiIcon}</span>
       </div>
       <h3 class="font-display font-bold text-lg text-slate-100 group-hover:text-blue-400 transition-colors line-clamp-2">
-        ${escapeHtml(item.titolo)}
+        ${escapeHtml(i18n.t(`item.${item.id}.title`, item.titolo))}
       </h3>
-      <p class="text-sm text-slate-400 mt-2 line-clamp-2 font-light">${escapeHtml(item.descrizione)}</p>
+      <p class="text-sm text-slate-400 mt-2 line-clamp-2 font-light">${escapeHtml(i18n.t(`item.${item.id}.description`, item.descrizione))}</p>
       <div class="flex items-center justify-between mt-4 text-xs text-slate-500 font-medium">
         <span class="flex gap-1.5">${levelDots(item.livello)}</span>
         <span class="uppercase tracking-widest">${LIVELLO_LABEL[item.livello]}</span>
