@@ -2,6 +2,7 @@ import { CATEGORIA_LABEL, LIVELLO_LABEL } from './data.js';
 import { isLearned } from './storage.js';
 import { lessonUrl } from './routing.js';
 import { escapeHtml } from './security.js';
+import { i18n } from './i18n.js';
 
 export function badgeClass(categoria) {
   const map = {
