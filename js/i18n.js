@@ -54,6 +54,7 @@ const translations = {
     'browse.technique': 'Tecnica',
     'browse.trick': 'Trucco',
     'browse.cardistry': 'Cardistry',
+    'browse.search': 'Filtra in tempo reale…',
     
     // Glossary
     'glossary.title': 'Glossario',
@@ -84,6 +85,19 @@ const translations = {
     'common.error': 'Si è verificato un errore. Riprova.',
     'common.back': 'Indietro',
     'common.close': 'Chiudi',
+    
+    // Dynamic content translations (wiki fields)
+    'wiki.charlier-cut.cos_e': 'Il taglio a una mano più iconico. Prima mossa da cardist.',
+    'wiki.charlier-cut.perche': 'Charlier Cut è una movimento di cardistry di livello 1. Padroneggiarla sblocca voci successive nell'enciclopedia e decine di tutorial gratuiti online.',
+    'wiki.charlier-cut.come_praticare.0': 'Studia il video senza carte, poi con mazzo lento.',
+    'wiki.charlier-cut.come_praticare.1': '10 ripetizioni pulite > 100 ripetizioni sloppate.',
+    'wiki.charlier-cut.come_praticare.2': 'Collega la mossa a un effetto breve per motivazione.',
+    'wiki.charlier-cut.errori_comuni.0': 'Saltare i prerequisiti indicati sopra.',
+    'wiki.charlier-cut.errori_comuni.1': 'Praticare solo seduto se l\'effetto è da in piedi.',
+    'wiki.charlier-cut.errori_comuni.2': 'Non registrarsi: il video mente, lo specchio no.',
+    'wiki.charlier-cut.tempo_stima': '2-5 giorni',
+    
+    // Add more wiki translations as needed...
   },
   en: {
     // Header & Navigation
@@ -139,6 +153,7 @@ const translations = {
     'browse.technique': 'Technique',
     'browse.trick': 'Trick',
     'browse.cardistry': 'Cardistry',
+    'browse.search': 'Search in real time…',
     
     // Glossary
     'glossary.title': 'Glossary',
@@ -169,6 +184,19 @@ const translations = {
     'common.error': 'An error occurred. Please try again.',
     'common.back': 'Back',
     'common.close': 'Close',
+    
+    // Dynamic content translations (wiki fields)
+    'wiki.charlier-cut.cos_e': 'The most iconic one-handed cut. The first move for cardists.',
+    'wiki.charlier-cut.perche': 'Charlier Cut is a level 1 cardistry move. Mastering it unlocks subsequent entries in the encyclopedia and dozens of free online tutorials.',
+    'wiki.charlier-cut.come_praticare.0': 'Study the video without cards, then with slow deck.',
+    'wiki.charlier-cut.come_praticare.1': '10 clean repetitions > 100 sloppy repetitions.',
+    'wiki.charlier-cut.come_praticare.2': 'Connect the move to a brief effect for motivation.',
+    'wiki.charlier-cut.errori_comuni.0': 'Skipping the prerequisites listed above.',
+    'wiki.charlier-cut.errori_comuni.1': 'Practicing only seated if the effect is for standing.',
+    'wiki.charlier-cut.errori_comuni.2': 'Not recording yourself: the video lies, the mirror does not.',
+    'wiki.charlier-cut.tempo_stima': '2-5 days',
+    
+    // Add more wiki translations as needed...
   }
 };
 

@@ -6,23 +6,28 @@ import { escapeHtml, youtubeEmbedUrl, isValidLessonId } from './security.js';
 import { renderWiki } from './wiki.js';
 import { getDependents, getNextSuggestion, renderRelatedList } from './graph.js';
 import { mountLayout } from './layout.js';
+import { i18n } from './i18n.js';
+import { translateStaticContent } from './translate-ui.js';
 
 const root = document.getElementById('video-root');
 
 async function init() {
-  mountLayout('browse', { showSearch: true });
+  // Translate static content
+  translateStaticContent();
+  
+  mountLayout('video', { showSearch: true });
 
   const id = getLessonId();
   if (!id || !isValidLessonId(id)) {
     root.innerHTML =
-      '<p class="text-red-400">ID non valido. Torna alla <a href="browse.html" class="underline text-amber-400">enciclopedia</a>.</p>';
+      '<p class="text-red-400">' + i18n.t('common.error') + '. Torna alla <a href="browse.html" class="underline text-amber-400">' + i18n.t('nav.browse') + '</a>.</p>';
     return;
   }
 
   const items = await loadData();
   const item = getById(items, id);
   if (!item) {
-    root.innerHTML = '<p class="text-red-400">Voce non trovata.</p>';
+    root.innerHTML = '<p class="text-red-400">' + i18n.t('encyclopedia.no-results') + '</p>';
     return;
   }
 
@@ -56,7 +61,7 @@ async function init() {
 
   root.innerHTML = `
     <nav class="text-sm text-zinc-500 mb-6">
-      <a href="index.html" class="hover:text-zinc-300">Home</a>
+      <a href="index.html" class="hover:text-zinc-300">${i18n.t('nav.home')}</a>
       <span class="mx-2">/</span>
       <a href="browse.html?categoria=${encodeURIComponent(item.categoria)}" class="hover:text-zinc-300">${CATEGORIA_LABEL[item.categoria]}</a>
       <span class="mx-2">/</span>
@@ -68,8 +73,8 @@ async function init() {
           ${
             yt
               ? `<iframe class="w-full h-full" src="${yt}" title="${escapeHtml(item.titolo)}"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>`
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>`
               : '<p class="p-8 text-zinc-500">Video non disponibile.</p>'
           }
         </div>
@@ -77,7 +82,7 @@ async function init() {
         <p class="text-zinc-400 mt-3 leading-relaxed">${escapeHtml(item.descrizione)}</p>
         ${prereqs.length ? `
         <section class="mt-8 p-4 rounded-xl border border-amber-500/20 bg-amber-500/5">
-          <h2 class="text-sm font-semibold text-amber-400 uppercase tracking-wide mb-2">Prima di imparare questo</h2>
+          <h2 class="text-sm font-semibold text-amber-400 uppercase tracking-wide mb-2">${i18n.t('common.back')} imparare questo</h2>
           <p class="text-zinc-300 text-sm">Assicurati di conoscere: ${prereqs.join(', ')}</p>
         </section>` : ''}
         ${next ? `
@@ -88,7 +93,7 @@ async function init() {
             <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path></svg>
           </a>
         </section>` : ''}
-        ${renderWiki(item.wiki)}
+        ${renderWiki(item.wiki, item.id)}
       </div>
       <aside class="mt-8 lg:mt-0 space-y-4">
         <div class="rounded-xl border border-zinc-800 bg-zinc-900/80 p-5 space-y-4 sticky top-24">
@@ -138,5 +143,12 @@ async function init() {
     }`;
   });
 }
+
+// Re-translate on language change
+window.addEventListener('languageChange', () => {
+  translateStaticContent();
+  // Re-initialize the page to update dynamic content
+  init();
+});
 
 init();

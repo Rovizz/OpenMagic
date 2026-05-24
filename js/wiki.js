@@ -1,35 +1,51 @@
 import { escapeHtml } from './security.js';
+import { i18n } from './i18n.js';
 
-export function renderWiki(wiki) {
+export function renderWiki(wiki, itemId) {
   if (!wiki) return '';
 
   const sections = [];
 
   if (wiki.cos_e) {
-    sections.push(block('Cos\'è', `<p>${escapeHtml(wiki.cos_e)}</p>`));
+    // Try to get translated content, fallback to original
+    const cosEKey = `wiki.${itemId}.cos_e`;
+    const cosE = i18n.t(cosEKey, wiki.cos_e);
+    sections.push(block('Cos\'è', `<p>${escapeHtml(cosE)}</p>`));
   }
   if (wiki.perche) {
-    sections.push(block('Perché impararlo', `<p>${escapeHtml(wiki.perche)}</p>`));
+    const percheKey = `wiki.${itemId}.perche`;
+    const perche = i18n.t(percheKey, wiki.perche);
+    sections.push(block('Perché impararlo', `<p>${escapeHtml(perche)}</p>`));
   }
   if (wiki.come_praticare?.length) {
+    const comePraticare = wiki.come_praticare.map((item, index) => {
+      const key = `wiki.${itemId}.come_praticare.${index}`;
+      return i18n.t(key, item);
+    });
     sections.push(
       block(
         'Come praticare',
-        `<ol class="list-decimal list-inside space-y-2 text-zinc-300">${wiki.come_praticare.map((s) => `<li>${escapeHtml(s)}</li>`).join('')}</ol>`
+        `<ol class="list-decimal list-inside space-y-2 text-zinc-300">${comePraticare.map((s) => `<li>${escapeHtml(s)}</li>`).join('')}</ol>`
       )
     );
   }
   if (wiki.errori_comuni?.length) {
+    const erroriComuni = wiki.errori_comuni.map((item, index) => {
+      const key = `wiki.${itemId}.errori_comuni.${index}`;
+      return i18n.t(key, item);
+    });
     sections.push(
       block(
         'Errori comuni',
-        `<ul class="list-disc list-inside space-y-1 text-zinc-400">${wiki.errori_comuni.map((s) => `<li>${escapeHtml(s)}</li>`).join('')}</ul>`
+        `<ul class="list-disc list-inside space-y-1 text-zinc-400">${erroriComuni.map((s) => `<li>${escapeHtml(s)}</li>`).join('')}</ul>`
       )
     );
   }
   if (wiki.tempo_stima) {
+    const tempoKey = `wiki.${itemId}.tempo_stima`;
+    const tempoStima = i18n.t(tempoKey, wiki.tempo_stima);
     sections.push(
-      `<p class="text-sm text-zinc-500 mt-4 flex items-center gap-1.5"><svg class="w-4 h-4 text-amber-500" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg> Tempo stimato: <span class="text-amber-400/90">${escapeHtml(wiki.tempo_stima)}</span></p>`
+      `<p class="text-sm text-zinc-500 mt-4 flex items-center gap-1.5"><svg class="w-4 h-4 text-amber-500" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg> Tempo stimato: <span class="text-amber-400/90">${escapeHtml(tempoStima)}</span></p>`
     );
   }
 
