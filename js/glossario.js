@@ -2,6 +2,7 @@ import { loadGlossary } from './data.js';
 import { lessonUrl } from './routing.js';
 import { escapeHtml } from './security.js';
 import { mountLayout } from './layout.js';
+import { i18n } from './i18n.js';
 
 const list = document.getElementById('glossary-list');
 const search = document.getElementById('glossary-search');
@@ -22,7 +23,7 @@ function render(filter = '') {
         <p class="text-zinc-300 text-sm mt-2 leading-relaxed">${escapeHtml(t.definizione)}</p>
         ${
           t.collegamenti?.length
-            ? `<p class="mt-3 text-xs text-zinc-500">Vedi: ${t.collegamenti
+            ? `<p class="mt-3 text-xs text-zinc-500">${i18n.getLang() === 'it' ? 'Vedi:' : 'See:'} ${t.collegamenti
                 .map((id) => `<a href="${lessonUrl(id)}" class="text-amber-400/80 hover:underline">${escapeHtml(id)}</a>`)
                 .join(', ')}</p>`
             : ''
@@ -30,7 +31,7 @@ function render(filter = '') {
       </article>`
         )
         .join('')
-    : '<p class="text-zinc-500">Nessun termine trovato.</p>';
+    : `<p class="text-zinc-500">${i18n.t('glossary.no-results')}</p>`;
 }
 
 async function init() {
@@ -38,6 +39,11 @@ async function init() {
   terms = await loadGlossary();
   render();
   search?.addEventListener('input', () => render(search.value));
+
+  // Re-render on language change
+  window.addEventListener('languageChange', () => {
+    render(search?.value || '');
+  });
 }
 
 init();

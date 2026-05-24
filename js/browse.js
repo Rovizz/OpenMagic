@@ -4,6 +4,7 @@ import { renderCard } from './ui.js';
 import { loadSearchIndex, searchItems } from './search.js';
 import { mountLayout } from './layout.js';
 import { PAGE_SIZE } from './config.js';
+import { i18n } from './i18n.js';
 
 const grid = document.getElementById('results-grid');
 const search = document.getElementById('search');
@@ -47,8 +48,8 @@ function renderPage(reset = true) {
   const slice = filtered.slice(0, visibleCount);
   grid.innerHTML = slice.length
     ? slice.map(renderCard).join('')
-    : '<p class="text-zinc-500 col-span-full text-center py-12">Nessun risultato. Prova un altro termine o filtro.</p>';
-  countEl.textContent = `${filtered.length} voci nell'enciclopedia`;
+    : `<p class="text-zinc-500 col-span-full text-center py-12">${i18n.t('encyclopedia.no-results')}</p>`;
+  countEl.textContent = `${filtered.length} ${i18n.getLang() === 'it' ? 'voci nell\'enciclopedia' : 'items in encyclopedia'}`;
   if (loadMoreBtn) {
     loadMoreBtn.classList.toggle('hidden', visibleCount >= filtered.length);
   }
@@ -62,7 +63,7 @@ async function init() {
 
   const stats = getProgressStats(allItems);
   document.getElementById('progress-text').textContent =
-    `${stats.done}/${stats.total} completati (${stats.percent}%)`;
+    `${stats.done}/${stats.total} ${i18n.getLang() === 'it' ? 'completati' : 'completed'} (${stats.percent}%)`;
 
   const update = () => {
     const f = readFilters();
@@ -83,6 +84,12 @@ async function init() {
     visibleCount += PAGE_SIZE;
     renderPage(false);
   });
+
+  // Re-render on language change
+  window.addEventListener('languageChange', () => {
+    renderPage(true);
+  });
+
   update();
 }
 
